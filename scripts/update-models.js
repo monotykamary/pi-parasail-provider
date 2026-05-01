@@ -126,6 +126,11 @@ const MODEL_SPECS = {
     reasoning: true,
     maxTokens: 16_384,
   },
+  'parasail-kimi-k26-nvfp4': {
+    name: 'Kimi K2.6 NVFP4',
+    reasoning: true,
+    maxTokens: 16_384,
+  },
   'parasail-kimi-k25': {
     name: 'Kimi K2.5',
     reasoning: true,
@@ -261,7 +266,6 @@ async function fetchPricing() {
     const alias = entry.externalAlias;
     if (!alias || !alias.startsWith('parasail-')) continue;
     if (SKIP_PREFIXES.some(prefix => alias.startsWith(prefix))) continue;
-    if (alias.endsWith('-nvfp4')) continue;
     pricing.set(alias, {
       contextLength: entry.contextLength || 0,
       inputCost: entry.inputCost ?? 0,
@@ -281,9 +285,6 @@ function transformApiModel(apiModel, existingModelsMap, pricing) {
 
   // Skip non-LLM models
   if (SKIP_PREFIXES.some(prefix => id.startsWith(prefix))) return null;
-
-  // Also skip nvfp4 quantized variants (redundant with full-precision)
-  if (id.endsWith('-nvfp4')) return null;
 
   // Only use parasail- prefixed IDs (cleaner aliases)
   if (!id.startsWith('parasail-')) return null;

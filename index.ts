@@ -147,9 +147,6 @@ function transformApiModel(apiModel: any): JsonModel | null {
   // Skip non-LLM models
   if (SKIP_PREFIXES.some(prefix => id.startsWith(prefix))) return null;
 
-  // Also skip nvfp4 quantized variants (redundant with full-precision)
-  if (id.endsWith('-nvfp4')) return null;
-
   // Prefer parasail- prefixed IDs (cleaner aliases)
   // Skip original IDs that have parasail- equivalents
   if (!id.startsWith("parasail-")) return null;

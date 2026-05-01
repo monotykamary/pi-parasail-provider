@@ -88,6 +88,27 @@
     }
   },
   {
+    "id": "parasail-kimi-k26-nvfp4",
+    "name": "Kimi K2.6 NVFP4",
+    "reasoning": true,
+    "input": [
+      "text"
+    ],
+    "cost": {
+      "input": 0.9,
+      "output": 3.75,
+      "cacheRead": 0.25,
+      "cacheWrite": 0
+    },
+    "contextWindow": 262144,
+    "maxTokens": 16384,
+    "compat": {
+      "maxTokensField": "max_completion_tokens",
+      "supportsDeveloperRole": false,
+      "supportsStore": false
+    }
+  },
+  {
     "id": "parasail-qwen3p5-35b-a3b",
     "name": "Qwen 3.5 35B (A3B)",
     "reasoning": true,

@@ -63,6 +63,7 @@ Get your API key at [parasail.io](https://parasail.io/).
 | DeepSeek V4 Pro | 1M | ✅ | Text | 384K | $1.74 | $3.48 | $0.87 |
 | Kimi K2.5 | 262K | ✅ | Text | 16K | $0.60 | $2.80 | $0.20 |
 | Kimi K2.6 | 262K | ✅ | Text | 16K | $0.80 | $3.50 | $0.20 |
+| Kimi K2.6 NVFP4 | 262K | ✅ | Text | 16K | $0.90 | $3.75 | $0.25 |
 | Qwen 3.5 35B (A3B) | 262K | ✅ | Text | 33K | $0.20 | $1.00 | $0.05 |
 | Qwen 3.5 397B (A17B) | 262K | ✅ | Text + Image | 33K | $0.60 | $3.60 | $0.30 |
 | Qwen 3.6 35B (A3B) | 262K | ✅ | Text | 33K | $0.20 | $1.00 | $0.05 |
