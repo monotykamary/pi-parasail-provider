@@ -1,0 +1,35 @@
+{
+  "name": "pi-parasail-provider",
+  "version": "1.0.0",
+  "description": "Parasail provider extension for pi - Access top open-source models (DeepSeek, Qwen, GLM, Kimi, Llama, Gemma, Mistral) through the Parasail API",
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "clean": "echo 'nothing to clean'",
+    "build": "echo 'nothing to build'",
+    "check": "echo 'nothing to check'",
+    "update-models": "node scripts/update-models.js"
+  },
+  "keywords": [
+    "pi",
+    "extension",
+    "provider",
+    "parasail",
+    "ai",
+    "llm",
+    "deepseek",
+    "qwen",
+    "glm",
+    "kimi",
+    "llama",
+    "gemma",
+    "mistral"
+  ],
+  "author": "",
+  "license": "MIT",
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  }
+}
