@@ -31,189 +31,6 @@ const README_PATH = path.join(__dirname, '..', 'README.md');
 // Non-LLM model prefixes to skip (embedding, TTS, UI agent models)
 const SKIP_PREFIXES = ['parasail-bge-', 'parasail-resemble-', 'parasail-ui-tars-'];
 
-// ─── Model metadata ─────────────────────────────────────────────────────────
-// Known specs for models — reasoning, thinking format, max tokens, etc.
-// Pricing and context window come from the pricing endpoint.
-
-const MODEL_SPECS = {
-  'parasail-deepseek-v4-pro': {
-    name: 'DeepSeek V4 Pro',
-    reasoning: true,
-    maxTokens: 384_000,
-    thinkingFormat: 'openai',
-    supportsReasoningEffort: true,
-  },
-  'parasail-deepseek-v4-flash': {
-    name: 'DeepSeek V4 Flash',
-    reasoning: true,
-    maxTokens: 384_000,
-    thinkingFormat: 'openai',
-    supportsReasoningEffort: true,
-  },
-  'parasail-qwen35-397b-a17b': {
-    name: 'Qwen 3.5 397B (A17B)',
-    reasoning: true,
-    maxTokens: 32_768,
-    thinkingFormat: 'qwen',
-  },
-  'parasail-qwen3-235b-a22b-instruct-2507': {
-    name: 'Qwen3 235B (A22B)',
-    reasoning: true,
-    maxTokens: 32_768,
-    thinkingFormat: 'qwen',
-  },
-  'parasail-qwen3-vl-235b-a22b-instruct': {
-    name: 'Qwen3-VL 235B (A22B)',
-    reasoning: true,
-    maxTokens: 32_768,
-    thinkingFormat: 'qwen',
-  },
-  'parasail-qwen3-coder-next': {
-    name: 'Qwen3 Coder Next',
-    reasoning: true,
-    maxTokens: 32_768,
-    thinkingFormat: 'qwen',
-  },
-  'parasail-qwen-3-next-80b-instruct': {
-    name: 'Qwen3 Next 80B (A3B)',
-    reasoning: true,
-    maxTokens: 32_768,
-    thinkingFormat: 'qwen',
-  },
-  'parasail-qwen3p5-35b-a3b': {
-    name: 'Qwen 3.5 35B (A3B)',
-    reasoning: true,
-    maxTokens: 32_768,
-    thinkingFormat: 'qwen',
-  },
-  'parasail-qwen3p6-35b-a3b': {
-    name: 'Qwen 3.6 35B (A3B)',
-    reasoning: true,
-    maxTokens: 32_768,
-    thinkingFormat: 'qwen',
-  },
-  'parasail-qwen3vl-8b-instruct': {
-    name: 'Qwen3-VL 8B',
-    reasoning: true,
-    maxTokens: 8_192,
-    thinkingFormat: 'qwen',
-  },
-  'parasail-qwen25-vl-72b-instruct': {
-    name: 'Qwen2.5-VL 72B',
-    reasoning: false,
-    maxTokens: 8_192,
-  },
-  'parasail-glm-51': {
-    name: 'GLM 5.1',
-    reasoning: true,
-    maxTokens: 16_384,
-    thinkingFormat: 'zai',
-  },
-  'parasail-glm-5': {
-    name: 'GLM 5',
-    reasoning: true,
-    maxTokens: 16_384,
-    thinkingFormat: 'zai',
-  },
-  'parasail-glm47': {
-    name: 'GLM 4.7',
-    reasoning: true,
-    maxTokens: 16_384,
-    thinkingFormat: 'zai',
-  },
-  'parasail-kimi-k26': {
-    name: 'Kimi K2.6',
-    reasoning: true,
-    maxTokens: 16_384,
-  },
-  'parasail-kimi-k26-nvfp4': {
-    name: 'Kimi K2.6 NVFP4',
-    reasoning: true,
-    maxTokens: 16_384,
-  },
-  'parasail-kimi-k25': {
-    name: 'Kimi K2.5',
-    reasoning: true,
-    maxTokens: 16_384,
-  },
-  'parasail-minimax-m25': {
-    name: 'MiniMax M2.5',
-    reasoning: true,
-    maxTokens: 16_384,
-  },
-  'parasail-trinity-large-thinking': {
-    name: 'Trinity Large Thinking',
-    reasoning: true,
-    maxTokens: 16_384,
-    thinkingFormat: 'openai',
-  },
-  'parasail-deepseek-v32': {
-    name: 'DeepSeek V3.2',
-    reasoning: false,
-    maxTokens: 16_384,
-  },
-  'parasail-llama-4-maverick-instruct-fp8': {
-    name: 'Llama 4 Maverick 17B-128E',
-    reasoning: false,
-    maxTokens: 16_384,
-  },
-  'parasail-llama-33-70b-fp8': {
-    name: 'Llama 3.3 70B',
-    reasoning: false,
-    maxTokens: 16_384,
-  },
-  'parasail-gemma-4-31b-it': {
-    name: 'Gemma 4 31B',
-    reasoning: false,
-    maxTokens: 16_384,
-  },
-  'parasail-gemma-4-26b-a4b-it': {
-    name: 'Gemma 4 26B (A4B)',
-    reasoning: false,
-    maxTokens: 16_384,
-  },
-  'parasail-gemma3-27b-it': {
-    name: 'Gemma 3 27B',
-    reasoning: false,
-    maxTokens: 16_384,
-  },
-  'parasail-mistral-small-32-24b': {
-    name: 'Mistral Small 3.2 24B',
-    reasoning: false,
-    maxTokens: 16_384,
-  },
-  'parasail-gpt-oss-120b': {
-    name: 'GPT-OSS 120B',
-    reasoning: false,
-    maxTokens: 16_384,
-  },
-  'parasail-gpt-oss-20b': {
-    name: 'GPT-OSS 20B',
-    reasoning: false,
-    maxTokens: 16_384,
-  },
-  'parasail-stepfun35-flash': {
-    name: 'Step 3.5 Flash',
-    reasoning: false,
-    maxTokens: 16_384,
-  },
-  'parasail-skyfall-31b-v42': {
-    name: 'Skyfall 31B v4.2',
-    reasoning: false,
-    maxTokens: 16_384,
-  },
-  'parasail-skyfall-36b-v2-fp8': {
-    name: 'Skyfall 36B v2',
-    reasoning: false,
-    maxTokens: 16_384,
-  },
-  'parasail-cydonia-24-v41': {
-    name: 'Cydonia 24B v4.1',
-    reasoning: false,
-    maxTokens: 16_384,
-  },
-};
-
 // ─── Helpers ─────────────────────────────────────────────────────────────────
 
 function loadJson(filePath) {
@@ -311,15 +128,16 @@ function transformApiModel(apiModel, existingModelsMap, pricing) {
     return existing;
   }
 
-  // New model — build from known specs + pricing
-  const specs = MODEL_SPECS[id] || {};
+  // New model — build from pricing data + sensible defaults
+  // models.json is the source of truth for curated specs (reasoning, thinkingFormat, etc.)
+  // New models get defaults here; curate models.json manually after discovery.
   const p = pricing.get(id);
-  const input = specs.input || (p?.tags?.includes('multimodal') ? ['text', 'image'] : ['text']);
+  const input = p?.tags?.includes('multimodal') ? ['text', 'image'] : ['text'];
 
   const model = {
     id,
-    name: specs.name || generateDisplayName(id),
-    reasoning: specs.reasoning || false,
+    name: generateDisplayName(id),
+    reasoning: false,
     input,
     cost: {
       input: p?.inputCost ?? 0,
@@ -327,23 +145,16 @@ function transformApiModel(apiModel, existingModelsMap, pricing) {
       cacheRead: p?.cachedCost ?? 0,
       cacheWrite: 0,
     },
-    contextWindow: p?.contextLength || specs.contextWindow || 131_072,
-    maxTokens: specs.maxTokens || 16_384,
+    contextWindow: p?.contextLength || 131_072,
+    maxTokens: 16_384,
   };
 
-  // Add compat settings
+  // Default compat settings (can be refined in models.json or patch.json)
   model.compat = {
     maxTokensField: 'max_completion_tokens',
     supportsDeveloperRole: false,
     supportsStore: false,
   };
-
-  if (model.reasoning && specs.thinkingFormat) {
-    model.compat.thinkingFormat = specs.thinkingFormat;
-  }
-  if (specs.supportsReasoningEffort) {
-    model.compat.supportsReasoningEffort = true;
-  }
 
   return model;
 }
