@@ -116,7 +116,7 @@
       "text"
     ],
     "cost": {
-      "input": 0.2,
+      "input": 0.15,
       "output": 1,
       "cacheRead": 0.05,
       "cacheWrite": 0
@@ -139,7 +139,7 @@
       "image"
     ],
     "cost": {
-      "input": 0.6,
+      "input": 0.5,
       "output": 3.6,
       "cacheRead": 0.3,
       "cacheWrite": 0
@@ -161,7 +161,7 @@
       "text"
     ],
     "cost": {
-      "input": 0.2,
+      "input": 0.15,
       "output": 1,
       "cacheRead": 0.05,
       "cacheWrite": 0
@@ -669,6 +669,27 @@
     },
     "contextWindow": 128000,
     "maxTokens": 8192,
+    "compat": {
+      "maxTokensField": "max_completion_tokens",
+      "supportsDeveloperRole": false,
+      "supportsStore": false
+    }
+  },
+  {
+    "id": "parasail-qwen3-embedding",
+    "name": "Qwen3 Embedding",
+    "reasoning": false,
+    "input": [
+      "text"
+    ],
+    "cost": {
+      "input": 0.01,
+      "output": 0,
+      "cacheRead": 0,
+      "cacheWrite": 0
+    },
+    "contextWindow": 40960,
+    "maxTokens": 16384,
     "compat": {
       "maxTokensField": "max_completion_tokens",
       "supportsDeveloperRole": false,

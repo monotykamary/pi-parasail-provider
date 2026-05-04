@@ -31,7 +31,7 @@
  * Then use /model to select from available models
  */
 
-import type { ExtensionAPI, Model, Api, ModelCompat, ModelRegistry } from "@mariozechner/pi-coding-agent";
+import type { ExtensionAPI, ModelRegistry } from "@mariozechner/pi-coding-agent";
 import modelsData from "./models.json" with { type: "json" };
 import customModelsData from "./custom-models.json" with { type: "json" };
 import patchData from "./patch.json" with { type: "json" };
@@ -54,7 +54,13 @@ interface JsonModel {
   };
   contextWindow: number;
   maxTokens: number;
-  compat?: ModelCompat;
+  compat?: {
+    supportsDeveloperRole?: boolean;
+    supportsStore?: boolean;
+    maxTokensField?: "max_completion_tokens" | "max_tokens";
+    thinkingFormat?: "openai" | "zai" | "qwen" | "qwen-chat-template";
+    supportsReasoningEffort?: boolean;
+  };
 }
 
 interface PatchEntry {
@@ -94,7 +100,7 @@ function applyPatch(model: JsonModel, patch: PatchEntry): JsonModel {
     };
   }
   if (patch.compat) {
-    result.compat = { ...(result.compat || {}), ...patch.compat } as ModelCompat;
+    result.compat = { ...(result.compat || {}), ...patch.compat };
   }
 
   if (!result.reasoning && result.compat?.thinkingFormat) {
@@ -137,29 +143,6 @@ function buildModels(base: JsonModel[], custom: JsonModel[], patch: PatchData): 
   }
 
   return Array.from(modelMap.values());
-}
-
-// ─── Model Transformation ─────────────────────────────────────────────────────
-
-function transformModel(model: JsonModel): Model<Api> {
-  const cost = model.cost ?? {};
-  return {
-    id: model.id,
-    name: model.name,
-    reasoning: model.reasoning,
-    input: model.input,
-    cost: {
-      input: cost.input ?? 0,
-      output: cost.output ?? 0,
-      cacheRead: cost.cacheRead ?? 0,
-      cacheWrite: cost.cacheWrite ?? 0,
-    },
-    contextWindow: model.contextWindow ?? 0,
-    maxTokens: model.maxTokens ?? 0,
-    api: "openai-completions",
-    provider: "parasail",
-    compat: model.compat,
-  } as Model<Api>;
 }
 
 // ─── Stale-While-Revalidate Model Sync ────────────────────────────────────────
@@ -354,7 +337,7 @@ export default function (pi: ExtensionAPI) {
   const patches = patchData as PatchData;
 
   const staleBase = loadStaleModels(embeddedModels);
-  const staleModels = buildModels(staleBase, customModels, patches).map(transformModel);
+  const staleModels = buildModels(staleBase, customModels, patches);
 
   pi.registerProvider("parasail", {
     baseUrl: BASE_URL,
@@ -376,7 +359,7 @@ export default function (pi: ExtensionAPI) {
           baseUrl: BASE_URL,
           apiKey: "PARASAIL_API_KEY",
           api: "openai-completions",
-          models: buildModels(freshBase, customModels, patches).map(transformModel),
+          models: buildModels(freshBase, customModels, patches),
         });
       }
     });

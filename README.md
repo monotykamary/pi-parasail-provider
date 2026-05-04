@@ -59,38 +59,39 @@ Get your API key at [parasail.io](https://parasail.io/).
 
 | Model | Context | Reasoning | Input | Max Output | Input $/M | Output $/M | Cache $/M |
 |-------|---------|-----------|-------|------------|-----------|------------|-----------|
+| Cydonia 24B v4.1 | 131K | ❌ | Text | 16K | $0.30 | $0.50 | $0.15 |
+| DeepSeek V3.2 | 164K | ❌ | Text | 16K | $0.28 | $0.45 | $0.13 |
 | DeepSeek V4 Flash | 1M | ✅ | Text | 384K | $0.14 | $0.28 | $0.07 |
 | DeepSeek V4 Pro | 1M | ✅ | Text | 384K | $1.74 | $3.48 | $0.87 |
-| Kimi K2.5 | 262K | ✅ | Text | 16K | $0.60 | $2.80 | $0.20 |
-| Kimi K2.6 | 262K | ✅ | Text | 16K | $0.80 | $3.50 | $0.20 |
-| Kimi K2.6 NVFP4 | 262K | ✅ | Text | 16K | $0.90 | $3.75 | $0.25 |
-| Qwen 3.5 35B (A3B) | 262K | ✅ | Text | 33K | $0.20 | $1.00 | $0.05 |
-| Qwen 3.5 397B (A17B) | 262K | ✅ | Text + Image | 33K | $0.60 | $3.60 | $0.30 |
-| Qwen 3.6 35B (A3B) | 262K | ✅ | Text | 33K | $0.20 | $1.00 | $0.05 |
-| Qwen3 Coder Next | 262K | ✅ | Text | 33K | $0.12 | $0.80 | $0.07 |
-| Qwen3 Next 80B (A3B) | 262K | ✅ | Text | 33K | $0.10 | $1.10 | $0.07 |
-| Qwen3-VL 8B | 262K | ✅ | Text + Image | 8K | $0.25 | $0.75 | $0.12 |
-| Trinity Large Thinking | 262K | ✅ | Text | 16K | $0.22 | $0.85 | $0.06 |
+| Gemma 3 27B | 131K | ❌ | Text + Image | 16K | $0.08 | $0.45 | $0.04 |
+| Gemma 4 26B (A4B) | 262K | ❌ | Text + Image | 16K | $0.13 | $0.40 | $0.05 |
+| Gemma 4 31B | 262K | ❌ | Text + Image | 16K | $0.14 | $0.40 | $0.07 |
 | GLM 4.7 | 203K | ✅ | Text | 16K | $0.45 | $2.10 | $0.11 |
 | GLM 5 | 203K | ✅ | Text | 16K | $1.00 | $3.20 | $0.20 |
 | GLM 5.1 | 203K | ✅ | Text | 16K | $1.40 | $4.40 | $0.26 |
-| MiniMax M2.5 | 197K | ✅ | Text | 16K | $0.30 | $1.20 | $0.03 |
-| Qwen3 235B (A22B) | 131K | ✅ | Text | 33K | $0.10 | $0.60 | $0.05 |
-| Qwen3-VL 235B (A22B) | 131K | ✅ | Text + Image | 33K | $0.21 | $1.90 | $0.10 |
-| Llama 4 Maverick 17B-128E | 524K | ❌ | Text + Image | 16K | $0.35 | $1.00 | $0.17 |
-| Gemma 4 26B (A4B) | 262K | ❌ | Text + Image | 16K | $0.13 | $0.40 | $0.05 |
-| Gemma 4 31B | 262K | ❌ | Text + Image | 16K | $0.14 | $0.40 | $0.07 |
-| Step 3.5 Flash | 262K | ❌ | Text | 16K | $0.10 | $0.30 | $0.02 |
-| DeepSeek V3.2 | 164K | ❌ | Text | 16K | $0.28 | $0.45 | $0.13 |
-| Cydonia 24B v4.1 | 131K | ❌ | Text | 16K | $0.30 | $0.50 | $0.15 |
-| Gemma 3 27B | 131K | ❌ | Text + Image | 16K | $0.08 | $0.45 | $0.04 |
 | GPT-OSS 120B | 131K | ❌ | Text | 16K | $0.10 | $0.75 | $0.06 |
 | GPT-OSS 20B | 131K | ❌ | Text | 16K | $0.04 | $0.20 | $0.02 |
+| Kimi K2.5 | 262K | ✅ | Text + Image | 16K | $0.60 | $2.80 | $0.20 |
+| Kimi K2.6 | 262K | ✅ | Text + Image | 16K | $0.80 | $3.50 | $0.20 |
+| Kimi K2.6 NVFP4 | 262K | ✅ | Text + Image | 16K | $0.90 | $3.75 | $0.25 |
 | Llama 3.3 70B | 131K | ❌ | Text | 16K | $0.22 | $0.50 | $0.11 |
+| Llama 4 Maverick 17B-128E | 524K | ❌ | Text + Image | 16K | $0.35 | $1.00 | $0.17 |
+| MiniMax M2.5 | 197K | ✅ | Text | 16K | $0.30 | $1.20 | $0.03 |
 | Mistral Small 3.2 24B | 131K | ❌ | Text + Image | 16K | $0.09 | $0.60 | $0.05 |
-| Skyfall 31B v4.2 | 131K | ❌ | Text | 16K | $0.55 | $0.80 | $0.25 |
+| Qwen 3.5 35B (A3B) | 262K | ✅ | Text + Image | 33K | $0.15 | $1.00 | $0.05 |
+| Qwen 3.5 397B (A17B) | 262K | ✅ | Text + Image | 33K | $0.50 | $3.60 | $0.30 |
+| Qwen 3.6 35B (A3B) | 262K | ✅ | Text + Image | 33K | $0.15 | $1.00 | $0.05 |
 | Qwen2.5-VL 72B | 128K | ❌ | Text + Image | 8K | $0.80 | $1.00 | $0.40 |
+| Qwen3 235B (A22B) | 131K | ✅ | Text | 33K | $0.10 | $0.60 | $0.05 |
+| Qwen3 Coder Next | 262K | ✅ | Text | 33K | $0.12 | $0.80 | $0.07 |
+| Qwen3 Embedding | 41K | ❌ | Text | 16K | $0.01 | Free | Free |
+| Qwen3 Next 80B (A3B) | 262K | ✅ | Text | 33K | $0.10 | $1.10 | $0.07 |
+| Qwen3-VL 235B (A22B) | 131K | ✅ | Text + Image | 33K | $0.21 | $1.90 | $0.10 |
+| Qwen3-VL 8B | 262K | ✅ | Text + Image | 8K | $0.25 | $0.75 | $0.12 |
+| Skyfall 31B v4.2 | 131K | ❌ | Text | 16K | $0.55 | $0.80 | $0.25 |
 | Skyfall 36B v2 | 33K | ❌ | Text | 16K | $0.55 | $0.80 | $0.25 |
+| Step 3.5 Flash | 262K | ❌ | Text | 16K | $0.10 | $0.30 | $0.02 |
+| Trinity Large Thinking | 262K | ✅ | Text | 16K | $0.22 | $0.85 | $0.06 |
 
 *Pricing fetched live from [Parasail's pricing API](https://www.saas.parasail.io/api/v1/prices/serverlessEndpoints). Prices are per million tokens and subject to change.*
 
