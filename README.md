@@ -65,7 +65,7 @@ Get your API key at [parasail.io](https://parasail.io/).
 | DeepSeek V4 Pro | 1M | ✅ | Text | 384K | $1.74 | $3.48 | $0.87 |
 | Gemma 3 27B | 131K | ❌ | Text + Image | 16K | $0.08 | $0.45 | $0.04 |
 | Gemma 4 26B (A4B) | 262K | ❌ | Text + Image | 16K | $0.13 | $0.40 | $0.05 |
-| Gemma 4 31B | 262K | ❌ | Text + Image | 16K | $0.14 | $0.40 | $0.07 |
+| Gemma 4 31B | 262K | ❌ | Text + Image | 16K | $0.14 | $0.40 | $0.10 |
 | GLM 4.7 | 203K | ✅ | Text | 16K | $0.45 | $2.10 | $0.11 |
 | GLM 5 | 203K | ✅ | Text | 16K | $1.00 | $3.20 | $0.20 |
 | GLM 5.1 | 203K | ✅ | Text | 16K | $1.40 | $4.40 | $0.26 |
@@ -90,7 +90,7 @@ Get your API key at [parasail.io](https://parasail.io/).
 | Qwen3-VL 8B | 262K | ✅ | Text + Image | 8K | $0.25 | $0.75 | $0.12 |
 | Skyfall 31B v4.2 | 131K | ❌ | Text | 16K | $0.55 | $0.80 | $0.25 |
 | Skyfall 36B v2 | 33K | ❌ | Text | 16K | $0.55 | $0.80 | $0.25 |
-| Step 3.5 Flash | 262K | ❌ | Text | 16K | $0.10 | $0.30 | $0.02 |
+| Step 3.5 Flash | 262K | ❌ | Text | 16K | $0.10 | $0.30 | $0.03 |
 | Trinity Large Thinking | 262K | ✅ | Text | 16K | $0.22 | $0.85 | $0.06 |
 
 *Pricing fetched live from [Parasail's pricing API](https://www.saas.parasail.io/api/v1/prices/serverlessEndpoints). Prices are per million tokens and subject to change.*
