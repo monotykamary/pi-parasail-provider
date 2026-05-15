@@ -72,12 +72,14 @@ Get your API key at [parasail.io](https://parasail.io/).
 | GPT-OSS 120B | 131K | ❌ | Text | 16K | $0.10 | $0.75 | $0.06 |
 | GPT-OSS 20B | 131K | ❌ | Text | 16K | $0.04 | $0.20 | $0.02 |
 | Kimi K2.5 | 262K | ✅ | Text + Image | 16K | $0.60 | $2.80 | $0.20 |
-| Kimi K2.6 | 262K | ✅ | Text + Image | 16K | $0.80 | $3.50 | $0.20 |
+| Kimi K2.6 | 262K | ✅ | Text + Image | 16K | $0.75 | $3.50 | $0.16 |
 | Kimi K2.6 NVFP4 | 262K | ✅ | Text + Image | 16K | $0.90 | $3.75 | $0.25 |
 | Llama 3.3 70B | 131K | ❌ | Text | 16K | $0.22 | $0.50 | $0.11 |
 | Llama 4 Maverick 17B-128E | 524K | ❌ | Text + Image | 16K | $0.35 | $1.00 | $0.17 |
 | MiniMax M2.5 | 197K | ✅ | Text | 16K | $0.30 | $1.20 | $0.03 |
 | Mistral Small 3.2 24B | 131K | ❌ | Text + Image | 16K | $0.09 | $0.60 | $0.05 |
+| Nemotron 3 Nano 30b A3b Fp8 | 262K | ❌ | Text | 16K | $0.05 | $0.20 | Free |
+| Nemotron 3 Super 120b A12b Fp8 | 262K | ❌ | Text | 16K | $0.09 | $0.45 | Free |
 | Qwen 3.5 35B (A3B) | 262K | ✅ | Text + Image | 33K | $0.15 | $1.00 | $0.05 |
 | Qwen 3.5 397B (A17B) | 262K | ✅ | Text + Image | 33K | $0.50 | $3.60 | $0.30 |
 | Qwen 3.6 35B (A3B) | 262K | ✅ | Text + Image | 33K | $0.15 | $1.00 | $0.05 |
