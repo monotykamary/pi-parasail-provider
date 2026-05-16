@@ -74,9 +74,9 @@
       "text"
     ],
     "cost": {
-      "input": 0.8,
+      "input": 0.75,
       "output": 3.5,
-      "cacheRead": 0.2,
+      "cacheRead": 0.16,
       "cacheWrite": 0
     },
     "contextWindow": 262144,
@@ -452,6 +452,48 @@
       "input": 0.14,
       "output": 0.4,
       "cacheRead": 0.1,
+      "cacheWrite": 0
+    },
+    "contextWindow": 262144,
+    "maxTokens": 16384,
+    "compat": {
+      "maxTokensField": "max_completion_tokens",
+      "supportsDeveloperRole": false,
+      "supportsStore": false
+    }
+  },
+  {
+    "id": "parasail-nemotron-3-nano-30b-a3b-fp8",
+    "name": "Nemotron 3 Nano 30b A3b Fp8",
+    "reasoning": false,
+    "input": [
+      "text"
+    ],
+    "cost": {
+      "input": 0.05,
+      "output": 0.2,
+      "cacheRead": 0,
+      "cacheWrite": 0
+    },
+    "contextWindow": 262144,
+    "maxTokens": 16384,
+    "compat": {
+      "maxTokensField": "max_completion_tokens",
+      "supportsDeveloperRole": false,
+      "supportsStore": false
+    }
+  },
+  {
+    "id": "parasail-nemotron-3-super-120b-a12b-fp8",
+    "name": "Nemotron 3 Super 120b A12b Fp8",
+    "reasoning": false,
+    "input": [
+      "text"
+    ],
+    "cost": {
+      "input": 0.09,
+      "output": 0.45,
+      "cacheRead": 0,
       "cacheWrite": 0
     },
     "contextWindow": 262144,
