@@ -297,29 +297,8 @@ async function main() {
       .map(m => transformApiModel(m, existingModelsMap, pricing))
       .filter(m => m !== null);
 
-    // Keep models from models.json that are NOT in the API response
-    const apiIds = new Set(apiModels.map(m => m.id));
-    for (const existing of Object.values(existingModelsMap)) {
-      if (!apiIds.has(existing.id)) {
-        // Still update pricing from live data
-        const p = pricing.get(existing.id);
-        if (p) {
-          existing.cost = {
-            input: p.inputCost,
-            output: p.outputCost,
-            cacheRead: p.cachedCost,
-            cacheWrite: 0,
-          };
-          if (p.contextLength) {
-            existing.contextWindow = p.contextLength;
-          }
-          if (p.tags.includes('multimodal') && !existing.input.includes('image')) {
-            existing.input = [...existing.input, 'image'];
-          }
-        }
-        models.push(existing);
-      }
-    }
+    // Live API is authoritative — models absent from API are removed
+    // (embedded data is already used for enrichment in transformApiModel)
 
     // Sort: reasoning models first, then by context window (descending), then name
     models.sort((a, b) => {
