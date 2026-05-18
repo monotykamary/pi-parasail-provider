@@ -88,27 +88,6 @@
     }
   },
   {
-    "id": "parasail-kimi-k26-nvfp4",
-    "name": "Kimi K2.6 NVFP4",
-    "reasoning": true,
-    "input": [
-      "text"
-    ],
-    "cost": {
-      "input": 0.9,
-      "output": 3.75,
-      "cacheRead": 0.25,
-      "cacheWrite": 0
-    },
-    "contextWindow": 262144,
-    "maxTokens": 16384,
-    "compat": {
-      "maxTokensField": "max_completion_tokens",
-      "supportsDeveloperRole": false,
-      "supportsStore": false
-    }
-  },
-  {
     "id": "parasail-qwen3p5-35b-a3b",
     "name": "Qwen 3.5 35B (A3B)",
     "reasoning": true,
@@ -505,27 +484,6 @@
     }
   },
   {
-    "id": "parasail-stepfun35-flash",
-    "name": "Step 3.5 Flash",
-    "reasoning": false,
-    "input": [
-      "text"
-    ],
-    "cost": {
-      "input": 0.1,
-      "output": 0.3,
-      "cacheRead": 0.03,
-      "cacheWrite": 0
-    },
-    "contextWindow": 262144,
-    "maxTokens": 16384,
-    "compat": {
-      "maxTokensField": "max_completion_tokens",
-      "supportsDeveloperRole": false,
-      "supportsStore": false
-    }
-  },
-  {
     "id": "parasail-deepseek-v32",
     "name": "DeepSeek V3.2",
     "reasoning": false,
@@ -711,27 +669,6 @@
     },
     "contextWindow": 128000,
     "maxTokens": 8192,
-    "compat": {
-      "maxTokensField": "max_completion_tokens",
-      "supportsDeveloperRole": false,
-      "supportsStore": false
-    }
-  },
-  {
-    "id": "parasail-qwen3-embedding",
-    "name": "Qwen3 Embedding",
-    "reasoning": false,
-    "input": [
-      "text"
-    ],
-    "cost": {
-      "input": 0.01,
-      "output": 0,
-      "cacheRead": 0,
-      "cacheWrite": 0
-    },
-    "contextWindow": 40960,
-    "maxTokens": 16384,
     "compat": {
       "maxTokensField": "max_completion_tokens",
       "supportsDeveloperRole": false,

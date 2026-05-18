@@ -73,7 +73,6 @@ Get your API key at [parasail.io](https://parasail.io/).
 | GPT-OSS 20B | 131K | ❌ | Text | 16K | $0.04 | $0.20 | $0.02 |
 | Kimi K2.5 | 262K | ✅ | Text + Image | 16K | $0.60 | $2.80 | $0.20 |
 | Kimi K2.6 | 262K | ✅ | Text + Image | 16K | $0.75 | $3.50 | $0.16 |
-| Kimi K2.6 NVFP4 | 262K | ✅ | Text + Image | 16K | $0.90 | $3.75 | $0.25 |
 | Llama 3.3 70B | 131K | ❌ | Text | 16K | $0.22 | $0.50 | $0.11 |
 | Llama 4 Maverick 17B-128E | 524K | ❌ | Text + Image | 16K | $0.35 | $1.00 | $0.17 |
 | MiniMax M2.5 | 197K | ✅ | Text | 16K | $0.30 | $1.20 | $0.03 |
@@ -86,13 +85,11 @@ Get your API key at [parasail.io](https://parasail.io/).
 | Qwen2.5-VL 72B | 128K | ❌ | Text + Image | 8K | $0.80 | $1.00 | $0.40 |
 | Qwen3 235B (A22B) | 131K | ✅ | Text | 33K | $0.10 | $0.60 | $0.05 |
 | Qwen3 Coder Next | 262K | ✅ | Text | 33K | $0.12 | $0.80 | $0.07 |
-| Qwen3 Embedding | 41K | ❌ | Text | 16K | $0.01 | Free | Free |
 | Qwen3 Next 80B (A3B) | 262K | ✅ | Text | 33K | $0.10 | $1.10 | $0.07 |
 | Qwen3-VL 235B (A22B) | 131K | ✅ | Text + Image | 33K | $0.21 | $1.90 | $0.10 |
 | Qwen3-VL 8B | 262K | ✅ | Text + Image | 8K | $0.25 | $0.75 | $0.12 |
 | Skyfall 31B v4.2 | 131K | ❌ | Text | 16K | $0.55 | $0.80 | $0.25 |
 | Skyfall 36B v2 | 33K | ❌ | Text | 16K | $0.55 | $0.80 | $0.25 |
-| Step 3.5 Flash | 262K | ❌ | Text | 16K | $0.10 | $0.30 | $0.03 |
 | Trinity Large Thinking | 262K | ✅ | Text | 16K | $0.22 | $0.85 | $0.06 |
 
 *Pricing fetched live from [Parasail's pricing API](https://www.saas.parasail.io/api/v1/prices/serverlessEndpoints). Prices are per million tokens and subject to change.*
