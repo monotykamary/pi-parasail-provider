@@ -17,7 +17,7 @@ A [pi](https://github.com/badlogic/pi-mono) extension that registers [Parasail](
 Install directly from GitHub:
 
 ```bash
-pi install git:github.com/monotykamary/pi-parasail-provider
+pi install https://github.com/monotykamary/pi-parasail-provider
 ```
 
 Then set your API key and run pi:
