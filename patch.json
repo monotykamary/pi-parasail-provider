@@ -1,17 +1,87 @@
 {
   "parasail-kimi-k25": {
-    "input": ["text", "image"]
+    "input": ["text", "image"],
+    "compat": {
+      "supportsReasoningEffort": true
+    }
   },
   "parasail-kimi-k26": {
-    "input": ["text", "image"]
+    "input": ["text", "image"],
+    "compat": {
+      "supportsReasoningEffort": true
+    }
   },
   "parasail-kimi-k26-nvfp4": {
-    "input": ["text", "image"]
+    "input": ["text", "image"],
+    "compat": {
+      "supportsReasoningEffort": true
+    }
   },
   "parasail-qwen3p5-35b-a3b": {
-    "input": ["text", "image"]
+    "input": ["text", "image"],
+    "compat": {
+      "supportsReasoningEffort": true
+    }
   },
   "parasail-qwen3p6-35b-a3b": {
-    "input": ["text", "image"]
+    "input": ["text", "image"],
+    "compat": {
+      "supportsReasoningEffort": true
+    }
+  },
+  "parasail-qwen35-397b-a17b": {
+    "compat": {
+      "supportsReasoningEffort": true
+    }
+  },
+  "parasail-qwen3-coder-next": {
+    "compat": {
+      "supportsReasoningEffort": true
+    }
+  },
+  "parasail-qwen-3-next-80b-instruct": {
+    "compat": {
+      "supportsReasoningEffort": true
+    }
+  },
+  "parasail-qwen3vl-8b-instruct": {
+    "compat": {
+      "supportsReasoningEffort": true
+    }
+  },
+  "parasail-trinity-large-thinking": {
+    "compat": {
+      "supportsReasoningEffort": true
+    }
+  },
+  "parasail-glm47": {
+    "compat": {
+      "supportsReasoningEffort": true
+    }
+  },
+  "parasail-glm-5": {
+    "compat": {
+      "supportsReasoningEffort": true
+    }
+  },
+  "parasail-glm-51": {
+    "compat": {
+      "supportsReasoningEffort": true
+    }
+  },
+  "parasail-minimax-m25": {
+    "compat": {
+      "supportsReasoningEffort": true
+    }
+  },
+  "parasail-qwen3-235b-a22b-instruct-2507": {
+    "compat": {
+      "supportsReasoningEffort": true
+    }
+  },
+  "parasail-qwen3-vl-235b-a22b-instruct": {
+    "compat": {
+      "supportsReasoningEffort": true
+    }
   }
 }
