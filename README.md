@@ -62,7 +62,7 @@ Get your API key at [parasail.io](https://parasail.io/).
 | Cydonia 24B v4.1 | 131K | ❌ | Text | 16K | $0.30 | $0.50 | $0.15 |
 | DeepSeek V3.2 | 164K | ❌ | Text | 16K | $0.28 | $0.45 | $0.13 |
 | DeepSeek V4 Flash | 1M | ✅ | Text | 384K | $0.14 | $0.28 | $0.07 |
-| DeepSeek V4 Pro | 1M | ✅ | Text | 384K | $1.74 | $3.48 | $0.87 |
+| DeepSeek V4 Pro | 1M | ✅ | Text | 384K | $1.74 | $3.48 | $0.10 |
 | Gemma 3 27B | 131K | ❌ | Text + Image | 16K | $0.08 | $0.45 | $0.04 |
 | Gemma 4 26B (A4B) | 262K | ❌ | Text + Image | 16K | $0.13 | $0.40 | $0.05 |
 | Gemma 4 31B | 262K | ❌ | Text + Image | 16K | $0.14 | $0.40 | $0.10 |
@@ -77,13 +77,11 @@ Get your API key at [parasail.io](https://parasail.io/).
 | Llama 4 Maverick 17B-128E | 524K | ❌ | Text + Image | 16K | $0.35 | $1.00 | $0.17 |
 | MiniMax M2.5 | 197K | ✅ | Text | 16K | $0.30 | $1.20 | $0.03 |
 | Mistral Small 3.2 24B | 131K | ❌ | Text + Image | 16K | $0.09 | $0.60 | $0.05 |
-| Nemotron 3 Nano 30b A3b Fp8 | 262K | ❌ | Text | 16K | $0.05 | $0.20 | Free |
-| Nemotron 3 Super 120b A12b Fp8 | 262K | ❌ | Text | 16K | $0.09 | $0.45 | Free |
 | Qwen 3.5 35B (A3B) | 262K | ✅ | Text + Image | 33K | $0.15 | $1.00 | $0.05 |
 | Qwen 3.5 397B (A17B) | 262K | ✅ | Text + Image | 33K | $0.50 | $3.60 | $0.30 |
 | Qwen 3.6 35B (A3B) | 262K | ✅ | Text + Image | 33K | $0.15 | $1.00 | $0.05 |
 | Qwen2.5-VL 72B | 128K | ❌ | Text + Image | 8K | $0.80 | $1.00 | $0.40 |
-| Qwen3 235B (A22B) | 131K | ✅ | Text | 33K | $0.10 | $0.60 | $0.05 |
+| Qwen3 235B (A22B) | 131K | ✅ | Text | 33K | $0.14 | $0.80 | $0.05 |
 | Qwen3 Coder Next | 262K | ✅ | Text | 33K | $0.12 | $0.80 | $0.07 |
 | Qwen3 Next 80B (A3B) | 262K | ✅ | Text | 33K | $0.10 | $1.10 | $0.07 |
 | Qwen3-VL 235B (A22B) | 131K | ✅ | Text + Image | 33K | $0.21 | $1.90 | $0.10 |
