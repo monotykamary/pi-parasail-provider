@@ -1,6 +1,17 @@
-# pi-parasail-provider
+<div align="center">
 
-A [pi](https://github.com/badlogic/pi-mono) extension that registers [Parasail](https://parasail.io/) as a custom provider. Access top open-source models — DeepSeek, Qwen, GLM, Kimi, Llama, Gemma, Mistral, and more — through Parasail's OpenAI-compatible API.
+# 🪂 pi-parasail-provider
+
+**30+ models via [Parasail](https://parasail.io/)**
+
+_DeepSeek, Qwen, GLM, Kimi, Llama, Gemma, Mistral — serverless with live pricing for [pi](https://github.com/earendil-works/pi-coding-agent)._
+
+[![pi extension](https://img.shields.io/badge/pi-extension-blueviolet)](https://github.com/earendil-works/pi-coding-agent)
+[![license](https://img.shields.io/badge/license-MIT-blue)](./LICENSE)
+
+</div>
+
+---
 
 ## Features
 
