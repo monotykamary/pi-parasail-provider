@@ -76,7 +76,7 @@ Get your API key at [parasail.io](https://parasail.io/).
 | DeepSeek V4 Pro | 1M | ✅ | Text | 384K | $1.74 | $3.48 | $0.10 |
 | Gemma 3 27B | 131K | ❌ | Text + Image | 16K | $0.08 | $0.45 | $0.04 |
 | Gemma 4 26B (A4B) | 262K | ❌ | Text + Image | 16K | $0.13 | $0.40 | $0.05 |
-| Gemma 4 31B | 262K | ❌ | Text + Image | 16K | $0.14 | $0.40 | $0.10 |
+| Gemma 4 31B | 262K | ❌ | Text + Image | 16K | $0.16 | $0.40 | $0.10 |
 | GLM 4.7 | 203K | ✅ | Text | 16K | $0.45 | $2.10 | $0.11 |
 | GLM 5 | 203K | ✅ | Text | 16K | $1.00 | $3.20 | $0.20 |
 | GLM 5.1 | 203K | ✅ | Text | 16K | $1.40 | $4.40 | $0.26 |
