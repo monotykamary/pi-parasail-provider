@@ -46,27 +46,6 @@
     }
   },
   {
-    "id": "parasail-kimi-k25",
-    "name": "Kimi K2.5",
-    "reasoning": true,
-    "input": [
-      "text"
-    ],
-    "cost": {
-      "input": 0.6,
-      "output": 2.8,
-      "cacheRead": 0.2,
-      "cacheWrite": 0
-    },
-    "contextWindow": 262144,
-    "maxTokens": 16384,
-    "compat": {
-      "maxTokensField": "max_completion_tokens",
-      "supportsDeveloperRole": false,
-      "supportsStore": false
-    }
-  },
-  {
     "id": "parasail-kimi-k26",
     "name": "Kimi K2.6",
     "reasoning": true,
@@ -244,28 +223,6 @@
     }
   },
   {
-    "id": "parasail-glm47",
-    "name": "GLM 4.7",
-    "reasoning": true,
-    "input": [
-      "text"
-    ],
-    "cost": {
-      "input": 0.45,
-      "output": 2.1,
-      "cacheRead": 0.11,
-      "cacheWrite": 0
-    },
-    "contextWindow": 202752,
-    "maxTokens": 16384,
-    "compat": {
-      "thinkingFormat": "zai",
-      "maxTokensField": "max_completion_tokens",
-      "supportsDeveloperRole": false,
-      "supportsStore": false
-    }
-  },
-  {
     "id": "parasail-glm-5",
     "name": "GLM 5",
     "reasoning": true,
@@ -397,6 +354,27 @@
     }
   },
   {
+    "id": "parasail-minimax-m3",
+    "name": "Minimax M3",
+    "reasoning": false,
+    "input": [
+      "text"
+    ],
+    "cost": {
+      "input": 0.3,
+      "output": 1.2,
+      "cacheRead": 0.06,
+      "cacheWrite": 0
+    },
+    "contextWindow": 1048576,
+    "maxTokens": 16384,
+    "compat": {
+      "maxTokensField": "max_completion_tokens",
+      "supportsDeveloperRole": false,
+      "supportsStore": false
+    }
+  },
+  {
     "id": "parasail-llama-4-maverick-instruct-fp8",
     "name": "Llama 4 Maverick 17B-128E",
     "reasoning": false,
@@ -463,6 +441,27 @@
     }
   },
   {
+    "id": "parasail-kimi-k27-code",
+    "name": "Kimi K27 Code",
+    "reasoning": false,
+    "input": [
+      "text"
+    ],
+    "cost": {
+      "input": 0.75,
+      "output": 3.5,
+      "cacheRead": 0.16,
+      "cacheWrite": 0
+    },
+    "contextWindow": 262144,
+    "maxTokens": 16384,
+    "compat": {
+      "maxTokensField": "max_completion_tokens",
+      "supportsDeveloperRole": false,
+      "supportsStore": false
+    }
+  },
+  {
     "id": "parasail-nemotron-3-ultra-550b-nvfp4",
     "name": "Nemotron 3 Ultra 550b Nvfp4",
     "reasoning": false,
@@ -476,27 +475,6 @@
       "cacheWrite": 0
     },
     "contextWindow": 262144,
-    "maxTokens": 16384,
-    "compat": {
-      "maxTokensField": "max_completion_tokens",
-      "supportsDeveloperRole": false,
-      "supportsStore": false
-    }
-  },
-  {
-    "id": "parasail-deepseek-v32",
-    "name": "DeepSeek V3.2",
-    "reasoning": false,
-    "input": [
-      "text"
-    ],
-    "cost": {
-      "input": 0.28,
-      "output": 0.45,
-      "cacheRead": 0.13,
-      "cacheWrite": 0
-    },
-    "contextWindow": 163840,
     "maxTokens": 16384,
     "compat": {
       "maxTokensField": "max_completion_tokens",
@@ -537,6 +515,27 @@
       "input": 0.08,
       "output": 0.45,
       "cacheRead": 0.04,
+      "cacheWrite": 0
+    },
+    "contextWindow": 131072,
+    "maxTokens": 16384,
+    "compat": {
+      "maxTokensField": "max_completion_tokens",
+      "supportsDeveloperRole": false,
+      "supportsStore": false
+    }
+  },
+  {
+    "id": "parasail-gpt-oss-120b-fast",
+    "name": "Gpt Oss 120b Fast",
+    "reasoning": false,
+    "input": [
+      "text"
+    ],
+    "cost": {
+      "input": 0.15,
+      "output": 0.6,
+      "cacheRead": 0,
       "cacheWrite": 0
     },
     "contextWindow": 131072,
