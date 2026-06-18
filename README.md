@@ -90,7 +90,6 @@ Get your API key at [parasail.io](https://parasail.io/).
 | MiniMax M2.5 | 197K | ✅ | Text | 16K | $0.30 | $1.20 | $0.03 |
 | Minimax M3 | 1M | ❌ | Text | 16K | $0.30 | $1.20 | $0.06 |
 | Mistral Small 3.2 24B | 131K | ❌ | Text + Image | 16K | $0.09 | $0.30 | $0.05 |
-| Nemotron 3 Ultra 550b Nvfp4 | 262K | ❌ | Text | 16K | $0.50 | $2.50 | $0.10 |
 | Qwen 3.5 35B (A3B) | 262K | ✅ | Text + Image | 33K | $0.15 | $1.00 | $0.05 |
 | Qwen 3.5 397B (A17B) | 262K | ✅ | Text + Image | 33K | $0.50 | $3.60 | $0.30 |
 | Qwen 3.6 35B (A3B) | 262K | ✅ | Text + Image | 33K | $0.15 | $1.00 | $0.05 |
