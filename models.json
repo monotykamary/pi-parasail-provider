@@ -632,27 +632,6 @@
     }
   },
   {
-    "id": "parasail-skyfall-31b-v42",
-    "name": "Skyfall 31B v4.2",
-    "reasoning": false,
-    "input": [
-      "text"
-    ],
-    "cost": {
-      "input": 0.55,
-      "output": 0.8,
-      "cacheRead": 0.25,
-      "cacheWrite": 0
-    },
-    "contextWindow": 131072,
-    "maxTokens": 16384,
-    "compat": {
-      "maxTokensField": "max_completion_tokens",
-      "supportsDeveloperRole": false,
-      "supportsStore": false
-    }
-  },
-  {
     "id": "parasail-qwen25-vl-72b-instruct",
     "name": "Qwen2.5-VL 72B",
     "reasoning": false,
