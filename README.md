@@ -78,7 +78,7 @@ Get your API key at [parasail.io](https://parasail.io/).
 | Gemma 4 31B | 262K | ❌ | Text + Image | 16K | $0.15 | $0.40 | $0.06 |
 | GLM 5 | 203K | ✅ | Text | 16K | $1.00 | $3.20 | $0.20 |
 | GLM 5.1 | 203K | ✅ | Text | 16K | $1.40 | $4.40 | $0.26 |
-| Glm 52 | 1M | ❌ | Text | 16K | $1.40 | $4.40 | $0.26 |
+| Glm 52 | 262K | ❌ | Text | 16K | $1.40 | $4.40 | $0.26 |
 | Gpt Oss 120b Fast | 131K | ❌ | Text | 16K | $0.15 | $0.60 | Free |
 | GPT-OSS 120B | 131K | ❌ | Text | 16K | $0.10 | $0.75 | $0.06 |
 | GPT-OSS 20B | 131K | ❌ | Text | 16K | $0.04 | $0.20 | $0.02 |
@@ -100,7 +100,6 @@ Get your API key at [parasail.io](https://parasail.io/).
 | Qwen3-VL 235B (A22B) | 131K | ✅ | Text + Image | 33K | $0.21 | $1.90 | $0.10 |
 | Qwen3-VL 8B | 262K | ✅ | Text + Image | 8K | $0.25 | $0.75 | $0.12 |
 | Skyfall 36B v2 | 33K | ❌ | Text | 16K | $0.55 | $0.80 | $0.25 |
-| Trinity Large Thinking | 262K | ✅ | Text | 16K | $0.22 | $0.85 | $0.06 |
 
 *Pricing fetched live from [Parasail's pricing API](https://www.saas.parasail.io/api/v1/prices/serverlessEndpoints). Prices are per million tokens and subject to change.*
 

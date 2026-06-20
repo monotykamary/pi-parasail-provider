@@ -201,28 +201,6 @@
     }
   },
   {
-    "id": "parasail-trinity-large-thinking",
-    "name": "Trinity Large Thinking",
-    "reasoning": true,
-    "input": [
-      "text"
-    ],
-    "cost": {
-      "input": 0.22,
-      "output": 0.85,
-      "cacheRead": 0.06,
-      "cacheWrite": 0
-    },
-    "contextWindow": 262144,
-    "maxTokens": 16384,
-    "compat": {
-      "thinkingFormat": "openai",
-      "maxTokensField": "max_completion_tokens",
-      "supportsDeveloperRole": false,
-      "supportsStore": false
-    }
-  },
-  {
     "id": "parasail-glm-5",
     "name": "GLM 5",
     "reasoning": true,
@@ -333,27 +311,6 @@
     }
   },
   {
-    "id": "parasail-glm-52",
-    "name": "Glm 52",
-    "reasoning": false,
-    "input": [
-      "text"
-    ],
-    "cost": {
-      "input": 1.4,
-      "output": 4.4,
-      "cacheRead": 0.26,
-      "cacheWrite": 0
-    },
-    "contextWindow": 1048576,
-    "maxTokens": 16384,
-    "compat": {
-      "maxTokensField": "max_completion_tokens",
-      "supportsDeveloperRole": false,
-      "supportsStore": false
-    }
-  },
-  {
     "id": "parasail-mimo-v25",
     "name": "Mimo V25",
     "reasoning": false,
@@ -451,6 +408,27 @@
       "input": 0.15,
       "output": 0.4,
       "cacheRead": 0.06,
+      "cacheWrite": 0
+    },
+    "contextWindow": 262144,
+    "maxTokens": 16384,
+    "compat": {
+      "maxTokensField": "max_completion_tokens",
+      "supportsDeveloperRole": false,
+      "supportsStore": false
+    }
+  },
+  {
+    "id": "parasail-glm-52",
+    "name": "Glm 52",
+    "reasoning": false,
+    "input": [
+      "text"
+    ],
+    "cost": {
+      "input": 1.4,
+      "output": 4.4,
+      "cacheRead": 0.26,
       "cacheWrite": 0
     },
     "contextWindow": 262144,
