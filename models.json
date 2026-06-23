@@ -461,6 +461,27 @@
     }
   },
   {
+    "id": "parasail-trinity-large-thinking",
+    "name": "Trinity Large Thinking",
+    "reasoning": false,
+    "input": [
+      "text"
+    ],
+    "cost": {
+      "input": 0.22,
+      "output": 0.85,
+      "cacheRead": 0.06,
+      "cacheWrite": 0
+    },
+    "contextWindow": 262144,
+    "maxTokens": 16384,
+    "compat": {
+      "maxTokensField": "max_completion_tokens",
+      "supportsDeveloperRole": false,
+      "supportsStore": false
+    }
+  },
+  {
     "id": "parasail-cydonia-24-v41",
     "name": "Cydonia 24B v4.1",
     "reasoning": false,
