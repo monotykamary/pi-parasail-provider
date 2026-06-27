@@ -651,26 +651,5 @@
       "supportsDeveloperRole": false,
       "supportsStore": false
     }
-  },
-  {
-    "id": "parasail-skyfall-36b-v2-fp8",
-    "name": "Skyfall 36B v2",
-    "reasoning": false,
-    "input": [
-      "text"
-    ],
-    "cost": {
-      "input": 0.55,
-      "output": 0.8,
-      "cacheRead": 0.25,
-      "cacheWrite": 0
-    },
-    "contextWindow": 32768,
-    "maxTokens": 16384,
-    "compat": {
-      "maxTokensField": "max_completion_tokens",
-      "supportsDeveloperRole": false,
-      "supportsStore": false
-    }
   }
 ]
