@@ -311,6 +311,27 @@
     }
   },
   {
+    "id": "parasail-glm-52-nvfp4",
+    "name": "Glm 52 Nvfp4",
+    "reasoning": false,
+    "input": [
+      "text"
+    ],
+    "cost": {
+      "input": 0,
+      "output": 0,
+      "cacheRead": 0,
+      "cacheWrite": 0
+    },
+    "contextWindow": 1048576,
+    "maxTokens": 16384,
+    "compat": {
+      "maxTokensField": "max_completion_tokens",
+      "supportsDeveloperRole": false,
+      "supportsStore": false
+    }
+  },
+  {
     "id": "parasail-mimo-v25",
     "name": "Mimo V25",
     "reasoning": false,
