@@ -31,12 +31,11 @@
  * Then use /model to select from available models
  */
 
-import type { ExtensionAPI, ModelRegistry } from "@earendil-works/pi-coding-agent";
+import { getAgentDir, type ExtensionAPI, type ModelRegistry } from "@earendil-works/pi-coding-agent";
 import modelsData from "./models.json" with { type: "json" };
 import customModelsData from "./custom-models.json" with { type: "json" };
 import patchData from "./patch.json" with { type: "json" };
 import fs from "fs";
-import os from "os";
 import path from "path";
 
 // ─── Types ────────────────────────────────────────────────────────────────────
@@ -151,7 +150,7 @@ const PROVIDER_ID = "parasail";
 const BASE_URL = "https://api.parasail.io/v1";
 const MODELS_URL = `${BASE_URL}/models`;
 const PRICING_URL = "https://www.saas.parasail.io/api/v1/prices/serverlessEndpoints";
-const CACHE_DIR = path.join(os.homedir(), ".pi", "agent", "cache");
+const CACHE_DIR = path.join(getAgentDir(), "cache");
 const CACHE_PATH = path.join(CACHE_DIR, `${PROVIDER_ID}-models.json`);
 const LIVE_FETCH_TIMEOUT_MS = 8000;
 
