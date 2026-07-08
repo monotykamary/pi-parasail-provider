@@ -85,6 +85,7 @@ Get your API key at [parasail.io](https://parasail.io/).
 | Kimi K2.6 | 262K | ✅ | Text + Image | 16K | $0.75 | $3.50 | $0.16 |
 | Kimi K27 Code | 262K | ❌ | Text | 16K | $0.75 | $3.50 | $0.16 |
 | Llama 3.3 70B | 131K | ❌ | Text | 16K | $0.22 | $0.50 | $0.11 |
+| Llama 32 3b Instruct | 131K | ❌ | Text | 16K | $0.05 | $0.33 | Free |
 | Llama 4 Maverick 17B-128E | 524K | ❌ | Text + Image | 16K | $0.35 | $1.00 | $0.17 |
 | Mimo V25 | 1M | ❌ | Text | 16K | $0.14 | $0.28 | $0.05 |
 | MiniMax M2.5 | 197K | ✅ | Text | 16K | $0.30 | $1.20 | $0.03 |
@@ -99,6 +100,8 @@ Get your API key at [parasail.io](https://parasail.io/).
 | Qwen3 Next 80B (A3B) | 262K | ✅ | Text | 33K | $0.10 | $1.10 | $0.07 |
 | Qwen3-VL 235B (A22B) | 131K | ✅ | Text + Image | 33K | $0.21 | $1.90 | $0.10 |
 | Qwen3-VL 8B | 262K | ✅ | Text + Image | 8K | $0.25 | $0.75 | $0.12 |
+| Qwen35 9b | 262K | ❌ | Text | 16K | $0.10 | $0.25 | Free |
+| Rocinante 12b | 66K | ❌ | Text | 16K | $0.25 | $0.50 | Free |
 | Skyfall 36b V2 Fp8 | 33K | ❌ | Text | 16K | $0.55 | $0.80 | $0.25 |
 | Trinity Large Thinking | 262K | ❌ | Text | 16K | $0.22 | $0.85 | $0.06 |
 
