@@ -97,6 +97,8 @@ Get your API key at [parasail.io](https://parasail.io/).
 | Qwen2.5-VL 72B | 128K | ❌ | Text + Image | 8K | $0.80 | $1.00 | $0.40 |
 | Qwen3 235B (A22B) | 131K | ✅ | Text | 33K | $0.14 | $0.80 | $0.05 |
 | Qwen3 Coder Next | 262K | ✅ | Text | 33K | $0.12 | $0.80 | $0.07 |
+| Qwen3 Embedding 4b | 41K | ❌ | Text | 16K | Free | Free | Free |
+| Qwen3 Embedding 8b | 41K | ❌ | Text | 16K | $0.03 | Free | Free |
 | Qwen3 Next 80B (A3B) | 262K | ✅ | Text | 33K | $0.10 | $1.10 | $0.07 |
 | Qwen3-VL 235B (A22B) | 131K | ✅ | Text + Image | 33K | $0.21 | $1.90 | $0.10 |
 | Qwen3-VL 8B | 262K | ✅ | Text + Image | 8K | $0.25 | $0.75 | $0.12 |
