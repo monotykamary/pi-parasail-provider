@@ -71,7 +71,7 @@ Get your API key at [parasail.io](https://parasail.io/).
 | Model | Context | Reasoning | Input | Max Output | Input $/M | Output $/M | Cache $/M |
 |-------|---------|-----------|-------|------------|-----------|------------|-----------|
 | Cydonia 24B v4.1 | 131K | ❌ | Text | 16K | $0.30 | $0.50 | $0.15 |
-| DeepSeek V4 Flash | 1M | ✅ | Text | 384K | $0.14 | $0.28 | $0.07 |
+| DeepSeek V4 Flash | 1M | ✅ | Text | 384K | $0.15 | $0.28 | $0.07 |
 | DeepSeek V4 Pro | 1M | ✅ | Text | 384K | $1.74 | $3.48 | $0.10 |
 | Gemma 3 27B | 131K | ❌ | Text + Image | 16K | $0.08 | $0.45 | $0.04 |
 | Gemma 4 26B (A4B) | 262K | ❌ | Text + Image | 16K | $0.13 | $0.40 | $0.05 |
@@ -83,13 +83,13 @@ Get your API key at [parasail.io](https://parasail.io/).
 | GPT-OSS 120B | 131K | ❌ | Text | 16K | $0.10 | $0.75 | $0.06 |
 | GPT-OSS 20B | 131K | ❌ | Text | 16K | $0.04 | $0.20 | $0.02 |
 | Kimi K2.6 | 262K | ✅ | Text + Image | 16K | $0.75 | $3.50 | $0.16 |
-| Kimi K27 Code | 262K | ❌ | Text | 16K | $0.75 | $3.50 | $0.16 |
+| Kimi K27 Code | 262K | ❌ | Text | 16K | $0.76 | $3.50 | $0.16 |
 | Llama 3.3 70B | 131K | ❌ | Text | 16K | $0.22 | $0.50 | $0.11 |
 | Llama 32 3b Instruct | 131K | ❌ | Text | 16K | $0.05 | $0.33 | Free |
 | Llama 4 Maverick 17B-128E | 524K | ❌ | Text + Image | 16K | $0.35 | $1.00 | $0.17 |
 | Mimo V25 | 1M | ❌ | Text | 16K | $0.14 | $0.28 | $0.05 |
 | MiniMax M2.5 | 197K | ✅ | Text | 16K | $0.30 | $1.20 | $0.03 |
-| Minimax M3 | 1M | ❌ | Text | 16K | $0.30 | $1.20 | $0.06 |
+| Minimax M3 | 1M | ❌ | Text | 16K | $0.31 | $1.20 | $0.06 |
 | Mistral Small 3.2 24B | 131K | ❌ | Text + Image | 16K | $0.09 | $0.30 | $0.05 |
 | Qwen 3.5 35B (A3B) | 262K | ✅ | Text + Image | 33K | $0.15 | $1.00 | $0.05 |
 | Qwen 3.5 397B (A17B) | 262K | ✅ | Text + Image | 33K | $0.50 | $3.60 | $0.30 |
