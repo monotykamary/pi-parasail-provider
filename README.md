@@ -71,7 +71,7 @@ Get your API key at [parasail.io](https://parasail.io/).
 | Model | Context | Reasoning | Input | Max Output | Input $/M | Output $/M | Cache $/M |
 |-------|---------|-----------|-------|------------|-----------|------------|-----------|
 | Cydonia 24B v4.1 | 131K | ❌ | Text | 16K | $0.30 | $0.50 | $0.15 |
-| DeepSeek V4 Flash | 1M | ✅ | Text | 384K | $0.15 | $0.28 | $0.07 |
+| DeepSeek V4 Flash | 1M | ✅ | Text | 384K | $0.14 | $0.28 | $0.07 |
 | DeepSeek V4 Pro | 1M | ✅ | Text | 384K | $1.74 | $3.48 | $0.10 |
 | Gemma 3 27B | 131K | ❌ | Text + Image | 16K | $0.08 | $0.45 | $0.04 |
 | Gemma 4 26B (A4B) | 262K | ❌ | Text + Image | 16K | $0.13 | $0.40 | $0.05 |
@@ -89,7 +89,7 @@ Get your API key at [parasail.io](https://parasail.io/).
 | Llama 4 Maverick 17B-128E | 524K | ❌ | Text + Image | 16K | $0.35 | $1.00 | $0.17 |
 | Mimo V25 | 1M | ❌ | Text | 16K | $0.14 | $0.28 | $0.05 |
 | MiniMax M2.5 | 197K | ✅ | Text | 16K | $0.30 | $1.20 | $0.03 |
-| Minimax M3 | 1M | ❌ | Text | 16K | $0.31 | $1.20 | $0.06 |
+| Minimax M3 | 1M | ❌ | Text | 16K | $0.30 | $1.20 | $0.06 |
 | Mistral Small 3.2 24B | 131K | ❌ | Text + Image | 16K | $0.09 | $0.30 | $0.05 |
 | Qwen 3.5 35B (A3B) | 262K | ✅ | Text + Image | 33K | $0.15 | $1.00 | $0.05 |
 | Qwen 3.5 397B (A17B) | 262K | ✅ | Text + Image | 33K | $0.50 | $3.60 | $0.30 |
@@ -97,7 +97,7 @@ Get your API key at [parasail.io](https://parasail.io/).
 | Qwen2.5-VL 72B | 128K | ❌ | Text + Image | 8K | $0.80 | $1.00 | $0.40 |
 | Qwen3 235B (A22B) | 131K | ✅ | Text | 33K | $0.14 | $0.80 | $0.05 |
 | Qwen3 Coder Next | 262K | ✅ | Text | 33K | $0.12 | $0.80 | $0.07 |
-| Qwen3 Embedding 4b | 41K | ❌ | Text | 16K | Free | Free | Free |
+| Qwen3 Embedding 4b | 41K | ❌ | Text | 16K | $0.02 | Free | Free |
 | Qwen3 Embedding 8b | 41K | ❌ | Text | 16K | $0.03 | Free | Free |
 | Qwen3 Next 80B (A3B) | 262K | ✅ | Text | 33K | $0.10 | $1.10 | $0.07 |
 | Qwen3-VL 235B (A22B) | 131K | ✅ | Text + Image | 33K | $0.21 | $1.90 | $0.10 |
