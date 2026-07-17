@@ -80,8 +80,11 @@ Get your API key at [parasail.io](https://parasail.io/).
 | GLM 5.1 | 203K | ✅ | Text | 16K | $1.40 | $4.40 | $0.26 |
 | Glm 52 | 262K | ❌ | Text | 16K | $1.40 | $4.40 | $0.26 |
 | Gpt Oss 120b Fast | 131K | ❌ | Text | 16K | $0.15 | $0.60 | Free |
+| Gpt Oss Wrm Eager3 | 131K | ❌ | Text | 16K | Free | Free | Free |
+| Gpt Oss Wrm Lazy3 | 131K | ❌ | Text | 16K | Free | Free | Free |
 | GPT-OSS 120B | 131K | ❌ | Text | 16K | $0.10 | $0.75 | $0.06 |
 | GPT-OSS 20B | 131K | ❌ | Text | 16K | $0.04 | $0.20 | $0.02 |
+| Inkling | 262K | ❌ | Text | 16K | Free | Free | Free |
 | Kimi K2.6 | 262K | ✅ | Text + Image | 16K | $0.75 | $3.50 | $0.16 |
 | Kimi K27 Code | 262K | ❌ | Text | 16K | $0.76 | $3.50 | $0.16 |
 | Llama 3.3 70B | 131K | ❌ | Text | 16K | $0.22 | $0.50 | $0.11 |
