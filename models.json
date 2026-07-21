@@ -595,8 +595,8 @@
       "text"
     ],
     "cost": {
-      "input": 0.04,
-      "output": 0.2,
+      "input": 0.03,
+      "output": 0.15,
       "cacheRead": 0.02,
       "cacheWrite": 0
     },
