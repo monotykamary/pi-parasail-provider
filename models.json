@@ -311,6 +311,27 @@
     }
   },
   {
+    "id": "parasail-deepseek-v4-flash-h100",
+    "name": "Deepseek V4 Flash H100",
+    "reasoning": false,
+    "input": [
+      "text"
+    ],
+    "cost": {
+      "input": 0,
+      "output": 0,
+      "cacheRead": 0,
+      "cacheWrite": 0
+    },
+    "contextWindow": 1048576,
+    "maxTokens": 16384,
+    "compat": {
+      "maxTokensField": "max_completion_tokens",
+      "supportsDeveloperRole": false,
+      "supportsStore": false
+    }
+  },
+  {
     "id": "parasail-mimo-v25",
     "name": "Mimo V25",
     "reasoning": false,
