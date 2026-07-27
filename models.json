@@ -332,6 +332,27 @@
     }
   },
   {
+    "id": "parasail-minimax-m3",
+    "name": "Minimax M3",
+    "reasoning": false,
+    "input": [
+      "text"
+    ],
+    "cost": {
+      "input": 0.3,
+      "output": 1.2,
+      "cacheRead": 0.06,
+      "cacheWrite": 0
+    },
+    "contextWindow": 1048576,
+    "maxTokens": 16384,
+    "compat": {
+      "maxTokensField": "max_completion_tokens",
+      "supportsDeveloperRole": false,
+      "supportsStore": false
+    }
+  },
+  {
     "id": "parasail-llama-4-maverick-instruct-fp8",
     "name": "Llama 4 Maverick 17B-128E",
     "reasoning": false,
