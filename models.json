@@ -461,6 +461,27 @@
     }
   },
   {
+    "id": "parasail-kimi-k3",
+    "name": "Kimi K3",
+    "reasoning": false,
+    "input": [
+      "text"
+    ],
+    "cost": {
+      "input": 3,
+      "output": 15,
+      "cacheRead": 0.3,
+      "cacheWrite": 0
+    },
+    "contextWindow": 262144,
+    "maxTokens": 16384,
+    "compat": {
+      "maxTokensField": "max_completion_tokens",
+      "supportsDeveloperRole": false,
+      "supportsStore": false
+    }
+  },
+  {
     "id": "parasail-qwen35-9b",
     "name": "Qwen35 9b",
     "reasoning": false,
