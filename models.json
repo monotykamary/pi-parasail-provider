@@ -311,6 +311,27 @@
     }
   },
   {
+    "id": "parasail-kimi-k3",
+    "name": "Kimi K3",
+    "reasoning": false,
+    "input": [
+      "text"
+    ],
+    "cost": {
+      "input": 3,
+      "output": 15,
+      "cacheRead": 0.3,
+      "cacheWrite": 0
+    },
+    "contextWindow": 1048576,
+    "maxTokens": 16384,
+    "compat": {
+      "maxTokensField": "max_completion_tokens",
+      "supportsDeveloperRole": false,
+      "supportsStore": false
+    }
+  },
+  {
     "id": "parasail-mimo-v25",
     "name": "Mimo V25",
     "reasoning": false,
@@ -450,27 +471,6 @@
       "input": 0.76,
       "output": 3.5,
       "cacheRead": 0.16,
-      "cacheWrite": 0
-    },
-    "contextWindow": 262144,
-    "maxTokens": 16384,
-    "compat": {
-      "maxTokensField": "max_completion_tokens",
-      "supportsDeveloperRole": false,
-      "supportsStore": false
-    }
-  },
-  {
-    "id": "parasail-kimi-k3",
-    "name": "Kimi K3",
-    "reasoning": false,
-    "input": [
-      "text"
-    ],
-    "cost": {
-      "input": 3,
-      "output": 15,
-      "cacheRead": 0.3,
       "cacheWrite": 0
     },
     "contextWindow": 262144,
@@ -661,6 +661,27 @@
       "input": 0.05,
       "output": 0.33,
       "cacheRead": 0,
+      "cacheWrite": 0
+    },
+    "contextWindow": 131072,
+    "maxTokens": 16384,
+    "compat": {
+      "maxTokensField": "max_completion_tokens",
+      "supportsDeveloperRole": false,
+      "supportsStore": false
+    }
+  },
+  {
+    "id": "parasail-mistral-small-32-24b",
+    "name": "Mistral Small 32 24b",
+    "reasoning": false,
+    "input": [
+      "text"
+    ],
+    "cost": {
+      "input": 0.09,
+      "output": 0.3,
+      "cacheRead": 0.05,
       "cacheWrite": 0
     },
     "contextWindow": 131072,
