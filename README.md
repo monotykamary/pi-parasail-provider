@@ -84,7 +84,8 @@ Get your API key at [parasail.io](https://parasail.io/).
 | GPT-OSS 20B | 131K | ❌ | Text | 16K | $0.03 | $0.15 | $0.02 |
 | Kimi K2.6 | 262K | ✅ | Text + Image | 16K | $0.75 | $3.50 | $0.16 |
 | Kimi K27 Code | 262K | ❌ | Text | 16K | $0.76 | $3.50 | $0.16 |
-| Kimi K3 | 262K | ❌ | Text | 16K | $3.00 | $15.00 | $0.30 |
+| Kimi K3 | 1M | ❌ | Text | 16K | $3.00 | $15.00 | $0.30 |
+| Kimi K3 Fast | 1M | ❌ | Text | 16K | $3.00 | $15.00 | $0.30 |
 | Llama 3.3 70B | 131K | ❌ | Text | 16K | $0.22 | $0.50 | $0.11 |
 | Llama 32 3b Instruct | 131K | ❌ | Text | 16K | $0.05 | $0.33 | Free |
 | Llama 4 Maverick 17B-128E | 524K | ❌ | Text + Image | 16K | $0.35 | $1.00 | $0.17 |
@@ -108,7 +109,7 @@ Get your API key at [parasail.io](https://parasail.io/).
 | Rocinante 12b | 66K | ❌ | Text | 16K | $0.25 | $0.50 | Free |
 | Skyfall 36b V2 Fp8 | 33K | ❌ | Text | 16K | $0.55 | $0.80 | $0.25 |
 | Trinity Large Thinking | 262K | ❌ | Text | 16K | $0.22 | $0.85 | $0.06 |
-| Unslopnemo 12b | 1M | ❌ | Text | 16K | Free | Free | Free |
+| Unslopnemo 12b | 1M | ❌ | Text | 16K | $0.40 | $0.40 | Free |
 
 *Pricing fetched live from [Parasail's pricing API](https://www.saas.parasail.io/api/v1/prices/serverlessEndpoints). Prices are per million tokens and subject to change.*
 
