@@ -72,6 +72,7 @@ Get your API key at [parasail.io](https://parasail.io/).
 |-------|---------|-----------|-------|------------|-----------|------------|-----------|
 | Cydonia 24B v4.1 | 131K | ❌ | Text | 16K | $0.30 | $0.50 | $0.15 |
 | DeepSeek V4 Flash | 1M | ✅ | Text | 384K | $0.14 | $0.28 | $0.07 |
+| Deepseek V4 Flash 0731 | 1M | ❌ | Text | 16K | $0.14 | $0.28 | $0.07 |
 | DeepSeek V4 Pro | 1M | ✅ | Text | 384K | $1.74 | $3.48 | $0.10 |
 | Gemma 3 27B | 131K | ❌ | Text + Image | 16K | $0.08 | $0.45 | $0.04 |
 | Gemma 4 26B (A4B) | 262K | ❌ | Text + Image | 16K | $0.13 | $0.40 | $0.05 |
@@ -79,6 +80,7 @@ Get your API key at [parasail.io](https://parasail.io/).
 | GLM 5 | 203K | ✅ | Text | 16K | $1.00 | $3.20 | $0.20 |
 | GLM 5.1 | 203K | ✅ | Text | 16K | $1.40 | $4.40 | $0.26 |
 | Glm 52 | 262K | ❌ | Text | 16K | $1.40 | $4.40 | $0.26 |
+| Googlegemma 3 4b It | 131K | ❌ | Text | 16K | $0.05 | Free | Free |
 | Gpt Oss 120b Fast | 131K | ❌ | Text | 16K | $0.15 | $0.60 | Free |
 | GPT-OSS 120B | 131K | ❌ | Text | 16K | $0.10 | $0.75 | $0.06 |
 | GPT-OSS 20B | 131K | ❌ | Text | 16K | $0.03 | $0.15 | $0.02 |
@@ -93,6 +95,7 @@ Get your API key at [parasail.io](https://parasail.io/).
 | MiniMax M2.5 | 197K | ✅ | Text | 16K | $0.30 | $1.20 | $0.03 |
 | Minimax M3 | 1M | ❌ | Text | 16K | $0.30 | $1.20 | $0.06 |
 | Mistral Small 32 24b | 131K | ❌ | Text | 16K | $0.09 | $0.30 | $0.05 |
+| Mistralaimistral Nemo | 131K | ❌ | Text | 16K | $0.03 | $0.03 | Free |
 | Mythomax 13b | 4K | ❌ | Text | 16K | $0.08 | $0.11 | Free |
 | Qwen 3.5 35B (A3B) | 262K | ✅ | Text + Image | 33K | $0.15 | $1.00 | $0.05 |
 | Qwen 3.5 397B (A17B) | 262K | ✅ | Text + Image | 33K | $0.50 | $3.60 | $0.30 |
@@ -107,6 +110,7 @@ Get your API key at [parasail.io](https://parasail.io/).
 | Qwen3-VL 8B | 262K | ✅ | Text + Image | 8K | $0.25 | $0.75 | $0.12 |
 | Qwen35 9b | 262K | ❌ | Text | 16K | $0.10 | $0.25 | Free |
 | Rocinante 12b | 66K | ❌ | Text | 16K | $0.25 | $0.50 | Free |
+| Sao10kl3 Lunaris 8b | 8K | ❌ | Text | 16K | $0.04 | $0.05 | Free |
 | Skyfall 36b V2 Fp8 | 33K | ❌ | Text | 16K | $0.55 | $0.80 | $0.25 |
 | Trinity Large Thinking | 262K | ❌ | Text | 16K | $0.22 | $0.85 | $0.06 |
 | Unslopnemo 12b | 1M | ❌ | Text | 16K | $0.40 | $0.40 | Free |

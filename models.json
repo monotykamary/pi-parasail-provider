@@ -311,6 +311,27 @@
     }
   },
   {
+    "id": "parasail-deepseek-v4-flash-0731",
+    "name": "Deepseek V4 Flash 0731",
+    "reasoning": false,
+    "input": [
+      "text"
+    ],
+    "cost": {
+      "input": 0.14,
+      "output": 0.28,
+      "cacheRead": 0.07,
+      "cacheWrite": 0
+    },
+    "contextWindow": 1048576,
+    "maxTokens": 16384,
+    "compat": {
+      "maxTokensField": "max_completion_tokens",
+      "supportsDeveloperRole": false,
+      "supportsStore": false
+    }
+  },
+  {
     "id": "parasail-kimi-k3",
     "name": "Kimi K3",
     "reasoning": false,
@@ -609,6 +630,27 @@
     }
   },
   {
+    "id": "parasail-googlegemma-3-4b-it",
+    "name": "Googlegemma 3 4b It",
+    "reasoning": false,
+    "input": [
+      "text"
+    ],
+    "cost": {
+      "input": 0.05,
+      "output": 0,
+      "cacheRead": 0,
+      "cacheWrite": 0
+    },
+    "contextWindow": 131072,
+    "maxTokens": 16384,
+    "compat": {
+      "maxTokensField": "max_completion_tokens",
+      "supportsDeveloperRole": false,
+      "supportsStore": false
+    }
+  },
+  {
     "id": "parasail-gpt-oss-120b-fast",
     "name": "Gpt Oss 120b Fast",
     "reasoning": false,
@@ -735,6 +777,27 @@
     }
   },
   {
+    "id": "parasail-mistralaimistral-nemo",
+    "name": "Mistralaimistral Nemo",
+    "reasoning": false,
+    "input": [
+      "text"
+    ],
+    "cost": {
+      "input": 0.03,
+      "output": 0.03,
+      "cacheRead": 0,
+      "cacheWrite": 0
+    },
+    "contextWindow": 131072,
+    "maxTokens": 16384,
+    "compat": {
+      "maxTokensField": "max_completion_tokens",
+      "supportsDeveloperRole": false,
+      "supportsStore": false
+    }
+  },
+  {
     "id": "parasail-qwen25-vl-72b-instruct",
     "name": "Qwen2.5-VL 72B",
     "reasoning": false,
@@ -833,6 +896,27 @@
       "cacheWrite": 0
     },
     "contextWindow": 32768,
+    "maxTokens": 16384,
+    "compat": {
+      "maxTokensField": "max_completion_tokens",
+      "supportsDeveloperRole": false,
+      "supportsStore": false
+    }
+  },
+  {
+    "id": "parasail-sao10kl3-lunaris-8b",
+    "name": "Sao10kl3 Lunaris 8b",
+    "reasoning": false,
+    "input": [
+      "text"
+    ],
+    "cost": {
+      "input": 0.04,
+      "output": 0.05,
+      "cacheRead": 0,
+      "cacheWrite": 0
+    },
+    "contextWindow": 8192,
     "maxTokens": 16384,
     "compat": {
       "maxTokensField": "max_completion_tokens",
