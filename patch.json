@@ -1,85 +1,441 @@
 {
-  "parasail-kimi-k25": {
-    "input": ["text", "image"],
-    "compat": {
-      "supportsReasoningEffort": true
-    }
-  },
   "parasail-kimi-k26": {
-    "input": ["text", "image"],
+    "input": [
+      "text",
+      "image"
+    ],
+    "thinkingLevelMap": {
+      "off": "none",
+      "minimal": null,
+      "low": null,
+      "medium": null,
+      "high": "high",
+      "xhigh": null,
+      "max": null
+    },
     "compat": {
-      "supportsReasoningEffort": true
-    }
-  },
-  "parasail-kimi-k26-nvfp4": {
-    "input": ["text", "image"],
-    "compat": {
-      "supportsReasoningEffort": true
+      "thinkingFormat": "qwen-chat-template",
+      "supportsReasoningEffort": false,
+      "requiresReasoningContentOnAssistantMessages": true
     }
   },
   "parasail-qwen3p5-35b-a3b": {
-    "input": ["text", "image"],
+    "input": [
+      "text",
+      "image"
+    ],
+    "thinkingLevelMap": {
+      "off": "none",
+      "minimal": null,
+      "low": "low",
+      "medium": "medium",
+      "high": "high",
+      "xhigh": null,
+      "max": null
+    },
     "compat": {
-      "supportsReasoningEffort": true
+      "thinkingFormat": "qwen-chat-template",
+      "supportsReasoningEffort": false,
+      "requiresReasoningContentOnAssistantMessages": true
     }
   },
   "parasail-qwen3p6-35b-a3b": {
-    "input": ["text", "image"],
+    "input": [
+      "text",
+      "image"
+    ],
+    "thinkingLevelMap": {
+      "off": "none",
+      "minimal": null,
+      "low": "low",
+      "medium": "medium",
+      "high": "high",
+      "xhigh": null,
+      "max": null
+    },
     "compat": {
-      "supportsReasoningEffort": true
+      "thinkingFormat": "qwen-chat-template",
+      "supportsReasoningEffort": false,
+      "requiresReasoningContentOnAssistantMessages": true
     }
   },
   "parasail-qwen35-397b-a17b": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "thinkingLevelMap": {
+      "off": "none",
+      "minimal": null,
+      "low": "low",
+      "medium": "medium",
+      "high": "high",
+      "xhigh": null,
+      "max": null
+    },
     "compat": {
-      "supportsReasoningEffort": true
+      "thinkingFormat": "qwen-chat-template",
+      "supportsReasoningEffort": false,
+      "requiresReasoningContentOnAssistantMessages": true
     }
   },
   "parasail-qwen3-coder-next": {
+    "thinkingLevelMap": {
+      "off": "none",
+      "minimal": null,
+      "low": "low",
+      "medium": "medium",
+      "high": "high",
+      "xhigh": null,
+      "max": null
+    },
     "compat": {
-      "supportsReasoningEffort": true
+      "thinkingFormat": "qwen-chat-template",
+      "supportsReasoningEffort": false,
+      "requiresReasoningContentOnAssistantMessages": true
     }
   },
   "parasail-qwen-3-next-80b-instruct": {
+    "thinkingLevelMap": {
+      "off": "none",
+      "minimal": null,
+      "low": "low",
+      "medium": "medium",
+      "high": "high",
+      "xhigh": null,
+      "max": null
+    },
     "compat": {
-      "supportsReasoningEffort": true
+      "thinkingFormat": "qwen-chat-template",
+      "supportsReasoningEffort": false,
+      "requiresReasoningContentOnAssistantMessages": true
     }
   },
   "parasail-qwen3vl-8b-instruct": {
+    "thinkingLevelMap": {
+      "off": "none",
+      "minimal": null,
+      "low": "low",
+      "medium": "medium",
+      "high": "high",
+      "xhigh": null,
+      "max": null
+    },
     "compat": {
-      "supportsReasoningEffort": true
+      "thinkingFormat": "qwen-chat-template",
+      "supportsReasoningEffort": false,
+      "requiresReasoningContentOnAssistantMessages": true
     }
   },
   "parasail-trinity-large-thinking": {
+    "reasoning": true,
+    "thinkingLevelMap": {
+      "off": "none",
+      "minimal": null,
+      "low": "low",
+      "medium": "medium",
+      "high": "high",
+      "xhigh": null,
+      "max": null
+    },
     "compat": {
-      "supportsReasoningEffort": true
-    }
-  },
-  "parasail-glm47": {
-    "compat": {
+      "thinkingFormat": "openai",
       "supportsReasoningEffort": true
     }
   },
   "parasail-glm-5": {
+    "thinkingLevelMap": {
+      "off": "none",
+      "minimal": null,
+      "low": null,
+      "medium": null,
+      "high": "high",
+      "xhigh": null,
+      "max": null
+    },
     "compat": {
-      "supportsReasoningEffort": true
+      "thinkingFormat": "qwen-chat-template",
+      "requiresReasoningContentOnAssistantMessages": true
     }
   },
   "parasail-glm-51": {
+    "thinkingLevelMap": {
+      "off": "none",
+      "minimal": null,
+      "low": null,
+      "medium": null,
+      "high": "high",
+      "xhigh": null,
+      "max": null
+    },
     "compat": {
-      "supportsReasoningEffort": true
+      "thinkingFormat": "qwen-chat-template",
+      "requiresReasoningContentOnAssistantMessages": true
     }
   },
   "parasail-minimax-m25": {
+    "thinkingLevelMap": {
+      "off": "none",
+      "minimal": null,
+      "low": null,
+      "medium": null,
+      "high": "high",
+      "xhigh": null,
+      "max": null
+    },
     "compat": {
-      "supportsReasoningEffort": true
+      "thinkingFormat": "qwen-chat-template",
+      "supportsReasoningEffort": false,
+      "requiresReasoningContentOnAssistantMessages": true
     }
   },
   "parasail-qwen3-235b-a22b-instruct-2507": {
+    "thinkingLevelMap": {
+      "off": "none",
+      "minimal": null,
+      "low": "low",
+      "medium": "medium",
+      "high": "high",
+      "xhigh": null,
+      "max": null
+    },
+    "compat": {
+      "thinkingFormat": "qwen-chat-template",
+      "supportsReasoningEffort": false,
+      "requiresReasoningContentOnAssistantMessages": true
+    }
+  },
+  "parasail-qwen3-vl-235b-a22b-instruct": {
+    "thinkingLevelMap": {
+      "off": "none",
+      "minimal": null,
+      "low": "low",
+      "medium": "medium",
+      "high": "high",
+      "xhigh": null,
+      "max": null
+    },
+    "compat": {
+      "thinkingFormat": "qwen-chat-template",
+      "supportsReasoningEffort": false,
+      "requiresReasoningContentOnAssistantMessages": true
+    }
+  },
+  "parasail-deepseek-v4-flash-0731": {
+    "reasoning": true,
+    "thinkingLevelMap": {
+      "off": "none",
+      "minimal": null,
+      "low": null,
+      "medium": null,
+      "high": "high",
+      "xhigh": null,
+      "max": null
+    },
+    "compat": {
+      "thinkingFormat": "deepseek",
+      "supportsReasoningEffort": false,
+      "requiresReasoningContentOnAssistantMessages": true
+    }
+  },
+  "parasail-kimi-k3": {
+    "reasoning": true,
+    "input": [
+      "text",
+      "image"
+    ],
+    "thinkingLevelMap": {
+      "off": "none",
+      "minimal": null,
+      "low": null,
+      "medium": null,
+      "high": "high",
+      "xhigh": null,
+      "max": null
+    },
+    "compat": {
+      "thinkingFormat": "chat-template",
+      "supportsReasoningEffort": false,
+      "requiresReasoningContentOnAssistantMessages": true
+    }
+  },
+  "parasail-kimi-k3-fast": {
+    "reasoning": true,
+    "input": [
+      "text",
+      "image"
+    ],
+    "thinkingLevelMap": {
+      "off": "none",
+      "minimal": null,
+      "low": null,
+      "medium": null,
+      "high": "high",
+      "xhigh": null,
+      "max": null
+    },
+    "compat": {
+      "thinkingFormat": "chat-template",
+      "supportsReasoningEffort": false,
+      "requiresReasoningContentOnAssistantMessages": true
+    }
+  },
+  "parasail-mimo-v25": {
+    "reasoning": true,
+    "thinkingLevelMap": {
+      "off": "none",
+      "minimal": null,
+      "low": null,
+      "medium": null,
+      "high": "high",
+      "xhigh": null,
+      "max": null
+    },
+    "compat": {
+      "thinkingFormat": "chat-template",
+      "supportsReasoningEffort": false,
+      "requiresReasoningContentOnAssistantMessages": true
+    }
+  },
+  "parasail-minimax-m3": {
+    "reasoning": true,
+    "input": [
+      "text",
+      "image"
+    ],
+    "thinkingLevelMap": {
+      "off": "disabled",
+      "minimal": "adaptive",
+      "low": "adaptive",
+      "medium": "adaptive",
+      "high": "enabled",
+      "xhigh": null,
+      "max": null
+    },
+    "compat": {
+      "thinkingFormat": "chat-template",
+      "supportsReasoningEffort": false,
+      "requiresReasoningContentOnAssistantMessages": true,
+      "chatTemplateKwargs": {
+        "thinking_mode": {
+          "$var": "thinking.effort"
+        }
+      }
+    }
+  },
+  "parasail-gemma-4-26b-a4b-it": {
+    "reasoning": true,
+    "thinkingLevelMap": {
+      "off": "none",
+      "minimal": null,
+      "low": null,
+      "medium": null,
+      "high": "high",
+      "xhigh": null,
+      "max": null
+    },
+    "compat": {
+      "thinkingFormat": "chat-template",
+      "supportsReasoningEffort": false,
+      "requiresReasoningContentOnAssistantMessages": true
+    }
+  },
+  "parasail-gemma-4-31b-it": {
+    "reasoning": true,
+    "thinkingLevelMap": {
+      "off": "none",
+      "minimal": null,
+      "low": null,
+      "medium": null,
+      "high": "high",
+      "xhigh": null,
+      "max": null
+    },
+    "compat": {
+      "thinkingFormat": "chat-template",
+      "supportsReasoningEffort": false,
+      "requiresReasoningContentOnAssistantMessages": true
+    }
+  },
+  "parasail-glm-52": {
+    "reasoning": true,
+    "thinkingLevelMap": {
+      "off": "none",
+      "minimal": null,
+      "low": null,
+      "medium": null,
+      "high": "high",
+      "xhigh": null,
+      "max": null
+    },
+    "compat": {
+      "thinkingFormat": "chat-template",
+      "supportsReasoningEffort": false,
+      "requiresReasoningContentOnAssistantMessages": true
+    }
+  },
+  "parasail-kimi-k27-code": {
+    "reasoning": true,
+    "input": [
+      "text",
+      "image"
+    ],
+    "thinkingLevelMap": {
+      "off": "none",
+      "minimal": null,
+      "low": null,
+      "medium": null,
+      "high": "high",
+      "xhigh": null,
+      "max": null
+    },
+    "compat": {
+      "thinkingFormat": "chat-template",
+      "supportsReasoningEffort": false,
+      "requiresReasoningContentOnAssistantMessages": true
+    }
+  },
+  "parasail-gpt-oss-120b-fast": {
+    "reasoning": true,
+    "thinkingLevelMap": {
+      "off": null,
+      "minimal": null,
+      "low": "low",
+      "medium": "medium",
+      "high": "high",
+      "xhigh": null,
+      "max": null
+    },
     "compat": {
       "supportsReasoningEffort": true
     }
   },
-  "parasail-qwen3-vl-235b-a22b-instruct": {
+  "parasail-gpt-oss-120b": {
+    "reasoning": true,
+    "thinkingLevelMap": {
+      "off": null,
+      "minimal": null,
+      "low": "low",
+      "medium": "medium",
+      "high": "high",
+      "xhigh": null,
+      "max": null
+    },
+    "compat": {
+      "supportsReasoningEffort": true
+    }
+  },
+  "parasail-gpt-oss-20b": {
+    "reasoning": true,
+    "thinkingLevelMap": {
+      "off": null,
+      "minimal": null,
+      "low": "low",
+      "medium": "medium",
+      "high": "high",
+      "xhigh": null,
+      "max": null
+    },
     "compat": {
       "supportsReasoningEffort": true
     }

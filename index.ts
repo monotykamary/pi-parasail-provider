@@ -54,12 +54,15 @@ interface JsonModel {
   };
   contextWindow: number;
   maxTokens: number;
+  thinkingLevelMap?: Record<string, string | null>;
   compat?: {
     supportsDeveloperRole?: boolean;
     supportsStore?: boolean;
     maxTokensField?: "max_completion_tokens" | "max_tokens";
-    thinkingFormat?: "openai" | "zai" | "qwen" | "qwen-chat-template";
+    thinkingFormat?: "openai" | "zai" | "qwen" | "qwen-chat-template" | "chat-template";
     supportsReasoningEffort?: boolean;
+    requiresReasoningContentOnAssistantMessages?: boolean;
+    chatTemplateKwargs?: Record<string, unknown>;
   };
 }
 
@@ -75,6 +78,7 @@ interface PatchEntry {
   };
   contextWindow?: number;
   maxTokens?: number;
+  thinkingLevelMap?: Record<string, string | null>;
   compat?: Record<string, unknown>;
 }
 
@@ -90,6 +94,7 @@ function applyPatch(model: JsonModel, patch: PatchEntry): JsonModel {
   if (patch.input !== undefined) result.input = patch.input;
   if (patch.contextWindow !== undefined) result.contextWindow = patch.contextWindow;
   if (patch.maxTokens !== undefined) result.maxTokens = patch.maxTokens;
+  if (patch.thinkingLevelMap !== undefined) result.thinkingLevelMap = { ...patch.thinkingLevelMap };
 
   if (patch.cost) {
     result.cost = {
@@ -105,6 +110,9 @@ function applyPatch(model: JsonModel, patch: PatchEntry): JsonModel {
 
   if (!result.reasoning && result.compat?.thinkingFormat) {
     delete result.compat.thinkingFormat;
+  }
+  if (!result.reasoning && result.thinkingLevelMap) {
+    delete result.thinkingLevelMap;
   }
   if (result.compat && Object.keys(result.compat).length === 0) {
     delete result.compat;

@@ -173,6 +173,7 @@ function generateDisplayName(id) {
 
 function applyPatch(model, patch) {
   const result = { ...model };
+  if (patch.thinkingLevelMap !== undefined) result.thinkingLevelMap = { ...patch.thinkingLevelMap };
   if (patch.name !== undefined) result.name = patch.name;
   if (patch.reasoning !== undefined) result.reasoning = patch.reasoning;
   if (patch.input !== undefined) result.input = patch.input;
@@ -191,6 +192,9 @@ function applyPatch(model, patch) {
   }
   if (!result.reasoning && result.compat?.thinkingFormat) {
     delete result.compat.thinkingFormat;
+  }
+  if (!result.reasoning && result.thinkingLevelMap) {
+    delete result.thinkingLevelMap;
   }
   if (result.compat && Object.keys(result.compat).length === 0) {
     delete result.compat;
