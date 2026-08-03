@@ -245,7 +245,7 @@
       "image"
     ],
     "thinkingLevelMap": {
-      "off": "none",
+      "off": null,
       "minimal": null,
       "low": null,
       "medium": null,
@@ -266,7 +266,7 @@
       "image"
     ],
     "thinkingLevelMap": {
-      "off": "none",
+      "off": null,
       "minimal": null,
       "low": null,
       "medium": null,
