@@ -1,1 +1,69 @@
-{}
+{
+  "parasail-glm-5": {
+    "id": "parasail-glm-5",
+    "name": "GLM 5",
+    "reasoning": true,
+    "input": [
+      "text"
+    ],
+    "cost": {
+      "input": 1,
+      "output": 3.2,
+      "cacheRead": 0.2,
+      "cacheWrite": 0
+    },
+    "contextWindow": 202752,
+    "maxTokens": 16384,
+    "compat": {
+      "thinkingFormat": "zai",
+      "maxTokensField": "max_completion_tokens",
+      "supportsDeveloperRole": false,
+      "supportsStore": false
+    },
+    "deprecatedAt": "2026-08-05T02:00:25.555Z"
+  },
+  "parasail-minimax-m25": {
+    "id": "parasail-minimax-m25",
+    "name": "MiniMax M2.5",
+    "reasoning": true,
+    "input": [
+      "text"
+    ],
+    "cost": {
+      "input": 0.3,
+      "output": 1.2,
+      "cacheRead": 0.03,
+      "cacheWrite": 0
+    },
+    "contextWindow": 196608,
+    "maxTokens": 16384,
+    "compat": {
+      "maxTokensField": "max_completion_tokens",
+      "supportsDeveloperRole": false,
+      "supportsStore": false
+    },
+    "deprecatedAt": "2026-08-05T02:00:25.555Z"
+  },
+  "parasail-kimi-k3": {
+    "id": "parasail-kimi-k3",
+    "name": "Kimi K3",
+    "reasoning": false,
+    "input": [
+      "text"
+    ],
+    "cost": {
+      "input": 3,
+      "output": 15,
+      "cacheRead": 0.3,
+      "cacheWrite": 0
+    },
+    "contextWindow": 1048576,
+    "maxTokens": 16384,
+    "compat": {
+      "maxTokensField": "max_completion_tokens",
+      "supportsDeveloperRole": false,
+      "supportsStore": false
+    },
+    "deprecatedAt": "2026-08-05T02:00:25.555Z"
+  }
+}
