@@ -44,9 +44,9 @@
     },
     "deprecatedAt": "2026-08-05T02:00:25.555Z"
   },
-  "parasail-kimi-k3": {
-    "id": "parasail-kimi-k3",
-    "name": "Kimi K3",
+  "parasail-kimi-k3-fast": {
+    "id": "parasail-kimi-k3-fast",
+    "name": "Kimi K3 Fast",
     "reasoning": false,
     "input": [
       "text"
@@ -64,6 +64,6 @@
       "supportsDeveloperRole": false,
       "supportsStore": false
     },
-    "deprecatedAt": "2026-08-05T02:00:25.555Z"
+    "deprecatedAt": "2026-08-07T02:00:20.111Z"
   }
 }

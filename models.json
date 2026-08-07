@@ -289,8 +289,8 @@
     }
   },
   {
-    "id": "parasail-kimi-k3-fast",
-    "name": "Kimi K3 Fast",
+    "id": "parasail-kimi-k3",
+    "name": "Kimi K3",
     "reasoning": false,
     "input": [
       "text"
