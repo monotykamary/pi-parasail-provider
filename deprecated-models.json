@@ -65,5 +65,49 @@
       "supportsStore": false
     },
     "deprecatedAt": "2026-08-07T02:00:20.111Z"
+  },
+  "parasail-qwen3-embedding-4b": {
+    "id": "parasail-qwen3-embedding-4b",
+    "name": "Qwen3 Embedding 4b",
+    "reasoning": false,
+    "input": [
+      "text"
+    ],
+    "cost": {
+      "input": 0.019,
+      "output": 0,
+      "cacheRead": 0,
+      "cacheWrite": 0
+    },
+    "contextWindow": 40960,
+    "maxTokens": 16384,
+    "compat": {
+      "maxTokensField": "max_completion_tokens",
+      "supportsDeveloperRole": false,
+      "supportsStore": false
+    },
+    "deprecatedAt": "2026-08-08T02:00:20.692Z"
+  },
+  "parasail-qwen3-embedding-8b": {
+    "id": "parasail-qwen3-embedding-8b",
+    "name": "Qwen3 Embedding 8b",
+    "reasoning": false,
+    "input": [
+      "text"
+    ],
+    "cost": {
+      "input": 0.03,
+      "output": 0,
+      "cacheRead": 0,
+      "cacheWrite": 0
+    },
+    "contextWindow": 40960,
+    "maxTokens": 16384,
+    "compat": {
+      "maxTokensField": "max_completion_tokens",
+      "supportsDeveloperRole": false,
+      "supportsStore": false
+    },
+    "deprecatedAt": "2026-08-08T02:00:20.692Z"
   }
 }
