@@ -289,6 +289,27 @@
     }
   },
   {
+    "id": "parasail-deepseek-v4-pro-0813",
+    "name": "Deepseek V4 Pro 0813",
+    "reasoning": false,
+    "input": [
+      "text"
+    ],
+    "cost": {
+      "input": 1.32,
+      "output": 3.96,
+      "cacheRead": 0.044000000000000004,
+      "cacheWrite": 0
+    },
+    "contextWindow": 1048576,
+    "maxTokens": 16384,
+    "compat": {
+      "maxTokensField": "max_completion_tokens",
+      "supportsDeveloperRole": false,
+      "supportsStore": false
+    }
+  },
+  {
     "id": "parasail-kimi-k3",
     "name": "Kimi K3",
     "reasoning": false,
@@ -722,6 +743,27 @@
     "cost": {
       "input": 0.03,
       "output": 0.03,
+      "cacheRead": 0,
+      "cacheWrite": 0
+    },
+    "contextWindow": 131072,
+    "maxTokens": 16384,
+    "compat": {
+      "maxTokensField": "max_completion_tokens",
+      "supportsDeveloperRole": false,
+      "supportsStore": false
+    }
+  },
+  {
+    "id": "parasail-muse-glimmer-30b",
+    "name": "Muse Glimmer 30b",
+    "reasoning": false,
+    "input": [
+      "text"
+    ],
+    "cost": {
+      "input": 0.3,
+      "output": 1.1,
       "cacheRead": 0,
       "cacheWrite": 0
     },

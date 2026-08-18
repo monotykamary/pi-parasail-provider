@@ -74,6 +74,7 @@ Get your API key at [parasail.io](https://parasail.io/).
 | DeepSeek V4 Flash | 1M | ✅ | Text | 384K | $0.14 | $0.28 | $0.07 |
 | Deepseek V4 Flash 0731 | 1M | ✅ | Text | 16K | $0.14 | $0.28 | $0.07 |
 | DeepSeek V4 Pro | 1M | ✅ | Text | 384K | $1.74 | $3.48 | $0.10 |
+| Deepseek V4 Pro 0813 | 1M | ❌ | Text | 16K | $1.32 | $3.96 | $0.04 |
 | Gemma 3 27B | 131K | ❌ | Text + Image | 16K | $0.08 | $0.45 | $0.04 |
 | Gemma 4 26B (A4B) | 262K | ✅ | Text + Image | 16K | $0.13 | $0.40 | $0.05 |
 | Gemma 4 31B | 262K | ✅ | Text + Image | 16K | $0.15 | $0.40 | $0.06 |
@@ -93,6 +94,7 @@ Get your API key at [parasail.io](https://parasail.io/).
 | Minimax M3 | 1M | ✅ | Text + Image | 16K | $0.30 | $1.20 | $0.06 |
 | Mistral Small 32 24b | 131K | ❌ | Text | 16K | $0.09 | $0.30 | $0.05 |
 | Mistralaimistral Nemo | 131K | ❌ | Text | 16K | $0.03 | $0.03 | Free |
+| Muse Glimmer 30b | 131K | ❌ | Text | 16K | $0.30 | $1.10 | Free |
 | Mythomax 13b | 4K | ❌ | Text | 16K | $0.08 | $0.11 | Free |
 | Qwen 3.5 35B (A3B) | 262K | ✅ | Text + Image | 33K | $0.15 | $1.00 | $0.05 |
 | Qwen 3.5 397B (A17B) | 262K | ✅ | Text + Image | 33K | $0.50 | $3.60 | $0.30 |
