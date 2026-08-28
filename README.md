@@ -72,21 +72,19 @@ Get your API key at [parasail.io](https://parasail.io/).
 |-------|---------|-----------|-------|------------|-----------|------------|-----------|
 | Cydonia 24B v4.1 | 131K | ❌ | Text | 16K | $0.30 | $0.50 | $0.15 |
 | DeepSeek V4 Flash | 1M | ✅ | Text | 384K | $0.14 | $0.28 | $0.07 |
-| Deepseek V4 Flash 0731 | 1M | ✅ | Text | 16K | $0.14 | $0.28 | $0.07 |
+| Deepseek V4 Flash 0731 | 1M | ✅ | Text | 16K | $0.14 | $0.28 | $0.05 |
 | DeepSeek V4 Pro | 1M | ✅ | Text | 384K | $1.74 | $3.48 | $0.10 |
 | Deepseek V4 Pro 0813 | 1M | ❌ | Text | 16K | $1.32 | $3.96 | $0.04 |
 | Gemma 3 27B | 131K | ❌ | Text + Image | 16K | $0.08 | $0.45 | $0.04 |
 | Gemma 4 26B (A4B) | 262K | ✅ | Text + Image | 16K | $0.13 | $0.40 | $0.05 |
 | Gemma 4 31B | 262K | ✅ | Text + Image | 16K | $0.15 | $0.40 | $0.06 |
-| GLM 5.1 | 203K | ✅ | Text | 16K | $1.40 | $4.40 | $0.26 |
 | Glm 52 | 262K | ✅ | Text | 16K | $1.40 | $4.40 | $0.26 |
-| Glm 53 Flash | 1M | ❌ | Text | 16K | — | — | — |
+| Glm 53 Flash | 1M | ❌ | Text | 16K | $0.15 | $0.50 | $0.03 |
 | Googlegemma 3 4b It | 131K | ❌ | Text | 16K | $0.05 | — | — |
 | Gpt Oss 120b Fast | 131K | ✅ | Text | 16K | $0.15 | $0.60 | — |
 | GPT-OSS 120B | 131K | ✅ | Text | 16K | $0.10 | $0.75 | $0.06 |
 | GPT-OSS 20B | 131K | ✅ | Text | 16K | $0.03 | $0.15 | $0.02 |
 | Kimi K2.6 | 262K | ✅ | Text + Image | 16K | $0.75 | $3.50 | $0.16 |
-| Kimi K27 Code | 262K | ✅ | Text + Image | 16K | $0.76 | $3.50 | $0.16 |
 | Kimi K3 | 1M | ✅ | Text + Image | 16K | $3.00 | $15.00 | $0.30 |
 | Llama 3.3 70B | 131K | ❌ | Text | 16K | $0.22 | $0.50 | $0.11 |
 | Llama 32 3b Instruct | 131K | ❌ | Text | 16K | $0.05 | $0.33 | — |
@@ -95,7 +93,7 @@ Get your API key at [parasail.io](https://parasail.io/).
 | Minimax M3 | 1M | ✅ | Text + Image | 16K | $0.30 | $1.20 | $0.06 |
 | Mistral Small 32 24b | 131K | ❌ | Text | 16K | $0.09 | $0.30 | $0.05 |
 | Mistralaimistral Nemo | 131K | ❌ | Text | 16K | $0.03 | $0.03 | — |
-| Muse Glimmer 30b | 131K | ❌ | Text | 16K | $0.30 | $1.10 | — |
+| Muse Glimmer 30b | 131K | ❌ | Text | 16K | $0.30 | $1.10 | $0.04 |
 | Mythomax 13b | 4K | ❌ | Text | 16K | $0.08 | $0.11 | — |
 | Qwen 3.5 35B (A3B) | 262K | ✅ | Text + Image | 33K | $0.15 | $1.00 | $0.05 |
 | Qwen 3.5 397B (A17B) | 262K | ✅ | Text + Image | 33K | $0.50 | $3.60 | $0.30 |
@@ -107,10 +105,9 @@ Get your API key at [parasail.io](https://parasail.io/).
 | Qwen3-VL 235B (A22B) | 131K | ✅ | Text + Image | 33K | $0.21 | $1.90 | $0.10 |
 | Qwen3-VL 8B | 262K | ✅ | Text + Image | 8K | $0.25 | $0.75 | $0.12 |
 | Qwen35 9b | 262K | ❌ | Text | 16K | $0.10 | $0.25 | — |
-| Qwen38 27b | 262K | ❌ | Text | 16K | $0.45 | $3.20 | — |
+| Qwen38 27b | 262K | ❌ | Text | 16K | $0.45 | $3.20 | $0.05 |
 | Sao10kl3 Lunaris 8b | 8K | ❌ | Text | 16K | $0.04 | $0.05 | — |
 | Skyfall 36b V2 Fp8 | 33K | ❌ | Text | 16K | $0.55 | $0.80 | $0.25 |
-| Trinity Large Thinking | 262K | ✅ | Text | 16K | $0.22 | $0.85 | $0.06 |
 | Unslopnemo 12b | 1M | ❌ | Text | 16K | $0.40 | $0.40 | — |
 
 *Pricing fetched live from [Parasail's pricing API](https://www.saas.parasail.io/api/v1/prices/serverlessEndpoints). Prices are per million tokens and subject to change.*
