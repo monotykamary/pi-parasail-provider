@@ -79,6 +79,7 @@ Get your API key at [parasail.io](https://parasail.io/).
 | Gemma 4 26B (A4B) | 262K | ✅ | Text + Image | 16K | $0.13 | $0.40 | $0.05 |
 | Gemma 4 31B | 262K | ✅ | Text + Image | 16K | $0.15 | $0.40 | $0.06 |
 | Glm 52 | 262K | ✅ | Text | 16K | $1.40 | $4.40 | $0.26 |
+| Glm 53 | 1M | ❌ | Text | 16K | — | — | — |
 | Glm 53 Flash | 1M | ❌ | Text | 16K | $0.15 | $0.50 | $0.03 |
 | Googlegemma 3 4b It | 131K | ❌ | Text | 16K | $0.05 | — | — |
 | Gpt Oss 120b Fast | 131K | ✅ | Text | 16K | $0.15 | $0.60 | — |
