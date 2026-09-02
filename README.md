@@ -90,11 +90,9 @@ Get your API key at [parasail.io](https://parasail.io/).
 | Llama 3.3 70B | 131K | ❌ | Text | 16K | $0.22 | $0.50 | $0.11 |
 | Llama 32 3b Instruct | 131K | ❌ | Text | 16K | $0.05 | $0.33 | — |
 | Llama 4 Maverick 17B-128E | 524K | ❌ | Text + Image | 16K | $0.35 | $1.00 | $0.17 |
-| Mimo V25 | 1M | ✅ | Text | 16K | $0.14 | $0.28 | $0.05 |
 | Minimax M3 | 1M | ✅ | Text + Image | 16K | $0.30 | $1.20 | $0.06 |
 | Mistral Small 32 24b | 131K | ❌ | Text | 16K | $0.09 | $0.30 | $0.05 |
 | Mistralaimistral Nemo | 131K | ❌ | Text | 16K | $0.03 | $0.03 | — |
-| Muse Glimmer 30b | 131K | ❌ | Text | 16K | $0.30 | $1.10 | $0.04 |
 | Mythomax 13b | 4K | ❌ | Text | 16K | $0.08 | $0.11 | — |
 | Qwen 3.5 35B (A3B) | 262K | ✅ | Text + Image | 33K | $0.15 | $1.00 | $0.05 |
 | Qwen 3.5 397B (A17B) | 262K | ✅ | Text + Image | 33K | $0.50 | $3.60 | $0.30 |

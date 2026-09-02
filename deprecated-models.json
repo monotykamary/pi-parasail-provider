@@ -87,5 +87,49 @@
       "supportsStore": false
     },
     "deprecatedAt": "2026-08-28T02:00:23.384Z"
+  },
+  "parasail-mimo-v25": {
+    "id": "parasail-mimo-v25",
+    "name": "Mimo V25",
+    "reasoning": false,
+    "input": [
+      "text"
+    ],
+    "cost": {
+      "input": 0.14,
+      "output": 0.28,
+      "cacheRead": 0.05,
+      "cacheWrite": 0
+    },
+    "contextWindow": 1048576,
+    "maxTokens": 16384,
+    "compat": {
+      "maxTokensField": "max_completion_tokens",
+      "supportsDeveloperRole": false,
+      "supportsStore": false
+    },
+    "deprecatedAt": "2026-09-02T02:00:27.549Z"
+  },
+  "parasail-muse-glimmer-30b": {
+    "id": "parasail-muse-glimmer-30b",
+    "name": "Muse Glimmer 30b",
+    "reasoning": false,
+    "input": [
+      "text"
+    ],
+    "cost": {
+      "input": 0.3,
+      "output": 1.1,
+      "cacheRead": 0.04,
+      "cacheWrite": 0
+    },
+    "contextWindow": 131072,
+    "maxTokens": 16384,
+    "compat": {
+      "maxTokensField": "max_completion_tokens",
+      "supportsDeveloperRole": false,
+      "supportsStore": false
+    },
+    "deprecatedAt": "2026-09-02T02:00:27.549Z"
   }
 }
