@@ -1,26 +1,4 @@
 {
-  "parasail-rocinante-12b": {
-    "id": "parasail-rocinante-12b",
-    "name": "Rocinante 12b",
-    "reasoning": false,
-    "input": [
-      "text"
-    ],
-    "cost": {
-      "input": 0.25,
-      "output": 0.5,
-      "cacheRead": 0,
-      "cacheWrite": 0
-    },
-    "contextWindow": 65536,
-    "maxTokens": 16384,
-    "compat": {
-      "maxTokensField": "max_completion_tokens",
-      "supportsDeveloperRole": false,
-      "supportsStore": false
-    },
-    "deprecatedAt": "2026-08-20T02:00:23.549Z"
-  },
   "parasail-glm-51": {
     "id": "parasail-glm-51",
     "name": "GLM 5.1",
