@@ -508,8 +508,8 @@
       "text"
     ],
     "cost": {
-      "input": 0.35,
-      "output": 3.2,
+      "input": 0.25,
+      "output": 2.2,
       "cacheRead": 0.05,
       "cacheWrite": 0
     },
