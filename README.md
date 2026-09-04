@@ -104,7 +104,7 @@ Get your API key at [parasail.io](https://parasail.io/).
 | Qwen3-VL 235B (A22B) | 131K | ✅ | Text + Image | 33K | $0.21 | $1.90 | $0.10 |
 | Qwen3-VL 8B | 262K | ✅ | Text + Image | 8K | $0.25 | $0.75 | $0.12 |
 | Qwen35 9b | 262K | ❌ | Text | 16K | $0.10 | $0.25 | — |
-| Qwen38 27b | 262K | ❌ | Text | 16K | $0.25 | $2.20 | $0.05 |
+| Qwen38 27b | 262K | ❌ | Text | 16K | $0.28 | $2.20 | $0.05 |
 | Sao10kl3 Lunaris 8b | 8K | ❌ | Text | 16K | $0.04 | $0.05 | — |
 | Skyfall 36b V2 Fp8 | 33K | ❌ | Text | 16K | $0.55 | $0.80 | $0.25 |
 | Unslopnemo 12b | 1M | ❌ | Text | 16K | $0.40 | $0.40 | — |
