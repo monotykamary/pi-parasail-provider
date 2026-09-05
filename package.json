@@ -1,6 +1,6 @@
 {
   "name": "pi-parasail-provider",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "description": "Parasail provider extension for pi - Access top open-source models (DeepSeek, Qwen, GLM, Kimi, Llama, Gemma, Mistral) through the Parasail API",
   "type": "module",
   "main": "index.ts",
@@ -31,5 +31,8 @@
     "extensions": [
       "./index.ts"
     ]
+  },
+  "devDependencies": {
+    "@earendil-works/pi-coding-agent": "0.85.1"
   }
 }
