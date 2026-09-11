@@ -75,6 +75,7 @@ Get your API key at [parasail.io](https://parasail.io/).
 | Deepseek V4 Flash 0731 | 1M | ✅ | Text | 16K | $0.14 | $0.28 | $0.05 |
 | DeepSeek V4 Pro | 1M | ✅ | Text | 384K | $1.74 | $3.48 | $0.10 |
 | Deepseek V4 Pro 0813 | 1M | ❌ | Text | 16K | $1.32 | $3.96 | $0.04 |
+| Deepseek V41 Flash | 1M | ❌ | Text | 16K | $0.30 | $1.20 | $0.01 |
 | Gemma 3 27B | 131K | ❌ | Text + Image | 16K | $0.08 | $0.45 | $0.04 |
 | Gemma 4 26B (A4B) | 262K | ✅ | Text + Image | 16K | $0.13 | $0.40 | $0.05 |
 | Gemma 4 31B | 262K | ✅ | Text + Image | 16K | $0.15 | $0.40 | $0.06 |
