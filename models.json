@@ -30,7 +30,7 @@
       "text"
     ],
     "cost": {
-      "input": 1.74,
+      "input": 0.45,
       "output": 3.48,
       "cacheRead": 0.1,
       "cacheWrite": 0
@@ -353,27 +353,6 @@
   {
     "id": "parasail-glm-53-flash-nvfp4",
     "name": "Glm 53 Flash Nvfp4",
-    "reasoning": false,
-    "input": [
-      "text"
-    ],
-    "cost": {
-      "input": 0,
-      "output": 0,
-      "cacheRead": 0,
-      "cacheWrite": 0
-    },
-    "contextWindow": 1048576,
-    "maxTokens": 16384,
-    "compat": {
-      "maxTokensField": "max_completion_tokens",
-      "supportsDeveloperRole": false,
-      "supportsStore": false
-    }
-  },
-  {
-    "id": "parasail-glm-53-flash-vercel",
-    "name": "Glm 53 Flash Vercel",
     "reasoning": false,
     "input": [
       "text"
