@@ -82,7 +82,6 @@ Get your API key at [parasail.io](https://parasail.io/).
 | Glm 52 | 262K | ✅ | Text | 16K | $1.40 | $4.40 | $0.26 |
 | Glm 53 | 1M | ❌ | Text | 16K | $1.40 | $4.40 | $0.26 |
 | Glm 53 Flash | 1M | ❌ | Text | 16K | $0.15 | $0.50 | $0.03 |
-| Glm 53 Flash Nvfp4 | 1M | ❌ | Text | 16K | — | — | — |
 | Googlegemma 3 4b It | 131K | ❌ | Text | 16K | $0.05 | — | — |
 | Gpt Oss 120b Fast | 131K | ✅ | Text | 16K | $0.15 | $0.60 | — |
 | GPT-OSS 120B | 131K | ✅ | Text | 16K | $0.10 | $0.75 | $0.06 |

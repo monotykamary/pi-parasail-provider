@@ -20,5 +20,27 @@
       "supportsStore": false
     },
     "deprecatedAt": "2026-10-04T00:00:19.449Z"
+  },
+  "parasail-glm-53-flash-nvfp4": {
+    "id": "parasail-glm-53-flash-nvfp4",
+    "name": "Glm 53 Flash Nvfp4",
+    "reasoning": false,
+    "input": [
+      "text"
+    ],
+    "cost": {
+      "input": 0,
+      "output": 0,
+      "cacheRead": 0,
+      "cacheWrite": 0
+    },
+    "contextWindow": 1048576,
+    "maxTokens": 16384,
+    "compat": {
+      "maxTokensField": "max_completion_tokens",
+      "supportsDeveloperRole": false,
+      "supportsStore": false
+    },
+    "deprecatedAt": "2026-10-05T00:00:23.171Z"
   }
 }
