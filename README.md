@@ -76,6 +76,8 @@ Get your API key at [parasail.io](https://parasail.io/).
 | DeepSeek V4 Pro | 1M | ✅ | Text | 384K | $0.45 | $3.48 | $0.10 |
 | Deepseek V4 Pro 0813 | 1M | ❌ | Text | 16K | $1.32 | $3.96 | $0.04 |
 | Deepseek V41 Flash | 1M | ❌ | Text | 16K | $0.30 | $1.20 | $0.01 |
+| Deepseek V41 Flash Bw Hongbo | 1M | ❌ | Text | 16K | — | — | — |
+| Dsv41 Bw B200 Hongbo | 1M | ❌ | Text | 16K | — | — | — |
 | Gemma 3 27B | 131K | ❌ | Text + Image | 16K | $0.08 | $0.45 | $0.04 |
 | Gemma 4 26B (A4B) | 262K | ✅ | Text + Image | 16K | $0.13 | $0.40 | $0.05 |
 | Gemma 4 31B | 262K | ✅ | Text + Image | 16K | $0.15 | $0.40 | $0.06 |
@@ -88,7 +90,7 @@ Get your API key at [parasail.io](https://parasail.io/).
 | GPT-OSS 120B | 131K | ✅ | Text | 16K | $0.10 | $0.75 | $0.06 |
 | GPT-OSS 20B | 131K | ✅ | Text | 16K | $0.03 | $0.15 | $0.02 |
 | Kimi K2.6 | 262K | ✅ | Text + Image | 16K | $0.75 | $3.50 | $0.16 |
-| Kimi K3 | 1M | ✅ | Text + Image | 16K | $3.00 | $15.00 | $0.30 |
+| Kimi K3 | 1M | ✅ | Text + Image | 16K | $2.60 | $13.00 | $0.26 |
 | Llama 3.3 70B | 131K | ❌ | Text | 16K | $0.22 | $0.50 | $0.11 |
 | Llama 32 3b Instruct | 131K | ❌ | Text | 16K | $0.05 | $0.33 | — |
 | Llama 4 Maverick 17B-128E | 524K | ❌ | Text + Image | 16K | $0.35 | $1.00 | $0.17 |

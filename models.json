@@ -309,6 +309,48 @@
     }
   },
   {
+    "id": "parasail-deepseek-v41-flash-bw-hongbo",
+    "name": "Deepseek V41 Flash Bw Hongbo",
+    "reasoning": false,
+    "input": [
+      "text"
+    ],
+    "cost": {
+      "input": 0,
+      "output": 0,
+      "cacheRead": 0,
+      "cacheWrite": 0
+    },
+    "contextWindow": 1048576,
+    "maxTokens": 16384,
+    "compat": {
+      "maxTokensField": "max_completion_tokens",
+      "supportsDeveloperRole": false,
+      "supportsStore": false
+    }
+  },
+  {
+    "id": "parasail-dsv41-bw-b200-hongbo",
+    "name": "Dsv41 Bw B200 Hongbo",
+    "reasoning": false,
+    "input": [
+      "text"
+    ],
+    "cost": {
+      "input": 0,
+      "output": 0,
+      "cacheRead": 0,
+      "cacheWrite": 0
+    },
+    "contextWindow": 1048576,
+    "maxTokens": 16384,
+    "compat": {
+      "maxTokensField": "max_completion_tokens",
+      "supportsDeveloperRole": false,
+      "supportsStore": false
+    }
+  },
+  {
     "id": "parasail-glm-53",
     "name": "Glm 53",
     "reasoning": false,
@@ -379,9 +421,9 @@
       "text"
     ],
     "cost": {
-      "input": 3,
-      "output": 15,
-      "cacheRead": 0.3,
+      "input": 2.6,
+      "output": 13,
+      "cacheRead": 0.26,
       "cacheWrite": 0
     },
     "contextWindow": 1048576,
