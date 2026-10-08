@@ -76,14 +76,13 @@ Get your API key at [parasail.io](https://parasail.io/).
 | DeepSeek V4 Pro | 1M | ✅ | Text | 384K | $0.45 | $3.48 | $0.10 |
 | Deepseek V4 Pro 0813 | 1M | ❌ | Text | 16K | $1.32 | $3.96 | $0.04 |
 | Deepseek V41 Flash | 1M | ❌ | Text | 16K | $0.30 | $1.20 | $0.01 |
-| Deepseek V41 Flash Bw Hongbo | 1M | ❌ | Text | 16K | — | — | — |
-| Dsv41 Bw B200 Hongbo | 1M | ❌ | Text | 16K | — | — | — |
 | Gemma 3 27B | 131K | ❌ | Text + Image | 16K | $0.08 | $0.45 | $0.04 |
 | Gemma 4 26B (A4B) | 262K | ✅ | Text + Image | 16K | $0.13 | $0.40 | $0.05 |
 | Gemma 4 31B | 262K | ✅ | Text + Image | 16K | $0.15 | $0.40 | $0.06 |
 | Glm 52 | 262K | ✅ | Text | 16K | $1.40 | $4.40 | $0.26 |
 | Glm 53 | 1M | ❌ | Text | 16K | $1.40 | $4.40 | $0.26 |
 | Glm 53 Flash | 1M | ❌ | Text | 16K | $0.15 | $0.50 | $0.03 |
+| Glm 53 Flash Fast | 1M | ❌ | Text | 16K | $0.19 | $0.63 | $0.04 |
 | Glm 53 Flash Vercel | 1M | ❌ | Text | 16K | — | — | — |
 | Googlegemma 3 4b It | 131K | ❌ | Text | 16K | $0.05 | — | — |
 | Gpt Oss 120b Fast | 131K | ✅ | Text | 16K | $0.15 | $0.60 | — |

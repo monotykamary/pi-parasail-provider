@@ -20,5 +20,49 @@
       "supportsStore": false
     },
     "deprecatedAt": "2026-10-05T00:00:23.171Z"
+  },
+  "parasail-deepseek-v41-flash-bw-hongbo": {
+    "id": "parasail-deepseek-v41-flash-bw-hongbo",
+    "name": "Deepseek V41 Flash Bw Hongbo",
+    "reasoning": false,
+    "input": [
+      "text"
+    ],
+    "cost": {
+      "input": 0,
+      "output": 0,
+      "cacheRead": 0,
+      "cacheWrite": 0
+    },
+    "contextWindow": 1048576,
+    "maxTokens": 16384,
+    "compat": {
+      "maxTokensField": "max_completion_tokens",
+      "supportsDeveloperRole": false,
+      "supportsStore": false
+    },
+    "deprecatedAt": "2026-10-08T00:00:21.187Z"
+  },
+  "parasail-dsv41-bw-b200-hongbo": {
+    "id": "parasail-dsv41-bw-b200-hongbo",
+    "name": "Dsv41 Bw B200 Hongbo",
+    "reasoning": false,
+    "input": [
+      "text"
+    ],
+    "cost": {
+      "input": 0,
+      "output": 0,
+      "cacheRead": 0,
+      "cacheWrite": 0
+    },
+    "contextWindow": 1048576,
+    "maxTokens": 16384,
+    "compat": {
+      "maxTokensField": "max_completion_tokens",
+      "supportsDeveloperRole": false,
+      "supportsStore": false
+    },
+    "deprecatedAt": "2026-10-08T00:00:21.187Z"
   }
 }
