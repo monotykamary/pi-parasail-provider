@@ -64,5 +64,27 @@
       "supportsStore": false
     },
     "deprecatedAt": "2026-10-08T00:00:21.187Z"
+  },
+  "parasail-glm-53-flash-vercel": {
+    "id": "parasail-glm-53-flash-vercel",
+    "name": "Glm 53 Flash Vercel",
+    "reasoning": false,
+    "input": [
+      "text"
+    ],
+    "cost": {
+      "input": 0,
+      "output": 0,
+      "cacheRead": 0,
+      "cacheWrite": 0
+    },
+    "contextWindow": 1048576,
+    "maxTokens": 16384,
+    "compat": {
+      "maxTokensField": "max_completion_tokens",
+      "supportsDeveloperRole": false,
+      "supportsStore": false
+    },
+    "deprecatedAt": "2026-10-09T00:00:22.639Z"
   }
 }

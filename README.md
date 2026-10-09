@@ -83,13 +83,13 @@ Get your API key at [parasail.io](https://parasail.io/).
 | Glm 53 | 1M | ❌ | Text | 16K | $1.40 | $4.40 | $0.26 |
 | Glm 53 Flash | 1M | ❌ | Text | 16K | $0.15 | $0.50 | $0.03 |
 | Glm 53 Flash Fast | 1M | ❌ | Text | 16K | $0.19 | $0.63 | $0.04 |
-| Glm 53 Flash Vercel | 1M | ❌ | Text | 16K | — | — | — |
 | Googlegemma 3 4b It | 131K | ❌ | Text | 16K | $0.05 | — | — |
 | Gpt Oss 120b Fast | 131K | ✅ | Text | 16K | $0.15 | $0.60 | — |
 | GPT-OSS 120B | 131K | ✅ | Text | 16K | $0.10 | $0.75 | $0.06 |
 | GPT-OSS 20B | 131K | ✅ | Text | 16K | $0.03 | $0.15 | $0.02 |
 | Kimi K2.6 | 262K | ✅ | Text + Image | 16K | $0.75 | $3.50 | $0.16 |
 | Kimi K3 | 1M | ✅ | Text + Image | 16K | $2.60 | $13.00 | $0.26 |
+| Kimi K3 Fast | 1M | ✅ | Text + Image | 16K | $3.00 | $15.00 | $0.30 |
 | Llama 3.3 70B | 131K | ❌ | Text | 16K | $0.22 | $0.50 | $0.11 |
 | Llama 32 3b Instruct | 131K | ❌ | Text | 16K | $0.05 | $0.33 | — |
 | Llama 4 Maverick 17B-128E | 524K | ❌ | Text + Image | 16K | $0.35 | $1.00 | $0.17 |
