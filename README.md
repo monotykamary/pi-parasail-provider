@@ -20,6 +20,7 @@ _DeepSeek, Qwen, GLM, Kimi, Llama, Gemma, Mistral — serverless with live prici
 - **Vision Support** — Qwen3-VL, Gemma 4, Qwen2.5-VL accept image + text input
 - **Unified API** — OpenAI-compatible completions endpoint
 - **Long Context** — DeepSeek V4 (1M), Llama 4 Maverick (1M), MiniMax M2.5 (1M)
+- **Quiet live model sync** — Models and pricing refresh from the Parasail API in the background, at most hourly and by one pi process at a time ([details](#model-sync))
 
 ## Installation
 
@@ -155,6 +156,7 @@ Get your API key at [parasail.io](https://parasail.io/).
 | Variable | Required | Description |
 |----------|----------|-------------|
 | `PARASAIL_API_KEY` | No | Your Parasail API key (fallback if not in auth.json) |
+| `PI_PROVIDER_SYNC_TTL_MS` | No | Model sync freshness window in ms (default `3600000`; `0` = revalidate every session start) |
 
 ## Configuration
 
@@ -183,6 +185,22 @@ The `patch.json` file contains overrides that are applied on top of `models.json
 - Correcting API-derived values (e.g., marking a model as reasoning-capable)
 - Adding compat settings that the API doesn't provide
 - Overriding pricing/context window when specs change
+
+## Model sync
+
+Startup never waits on the network. pi starts with the cached catalog (`~/.pi/agent/cache/parasail-models.json`,
+falling back to the bundled `models.json`) and revalidates against `/v1/models` and the public pricing endpoint in the
+background — only when:
+
+- a Parasail API key is configured (no key, no request — not even to the public pricing endpoint),
+- the cache is older than 1 hour, missing, or was fetched with a different API key, and
+- no other pi process is already refreshing it (a `parasail-models.lock` file next to the cache).
+
+So `/new`, `/reload`, `pi -p` and fan-out child agents share one cache instead of each calling the API; a
+session that skips the fetch still picks up a cache another process refreshed. The cache is only rewritten when the
+model list succeeds (pricing is a best-effort enrichment). A failed refresh is retried after 5 minutes at the earliest.
+`PI_PROVIDER_SYNC_TTL_MS` changes the window (`0` revalidates on every session start). Only a hash fingerprint of the
+key is stored (`parasail-models.sync.json`), never the key itself.
 
 ## Updating Models
 

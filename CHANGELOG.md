@@ -1,5 +1,14 @@
 # Changelog
 
+## Unreleased
+
+- Quiet startup sync: background revalidation (`/v1/models` plus the public pricing endpoint) runs only with an API key, only when the disk cache is older than 1 hour (`PI_PROVIDER_SYNC_TTL_MS`, `0` = always), missing, or fetched with a different key, and only in one pi process at a time (lock file next to the cache). Failed refreshes back off for 5 minutes; sessions that skip adopt a cache refreshed by another process.
+- Without an API key the extension no longer calls the public pricing endpoint either: no key, no request.
+- The model cache is only written when the authenticated model list succeeds; a failed refresh no longer overwrites the cache with the bundled models.
+- Never store the API key: key changes are detected via a salted sha256 fingerprint in `cache/parasail-models.sync.json`. The cache file format is unchanged.
+- Write the model cache atomically and swallow API key resolution failures in `session_start`.
+- Add vitest coverage for the sync policy and the session_start integration.
+
 ## 1.0.27
 
 - Validate provider registration and session lifecycle against Pi 1.0.0; update the pinned development SDK.
