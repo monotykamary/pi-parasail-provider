@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 1.0.35
 
 - Quiet startup sync: background revalidation (`/v1/models` plus the public pricing endpoint) runs only with an API key, only when the disk cache is older than 1 hour (`PI_PROVIDER_SYNC_TTL_MS`, `0` = always), missing, or fetched with a different key, and only in one pi process at a time (lock file next to the cache). Failed refreshes back off for 5 minutes; sessions that skip adopt a cache refreshed by another process.
 - Without an API key the extension no longer calls the public pricing endpoint either: no key, no request.
