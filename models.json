@@ -900,5 +900,26 @@
       "supportsDeveloperRole": false,
       "supportsStore": false
     }
+  },
+  {
+    "id": "parasail-cope-b-s1",
+    "name": "Cope B S1",
+    "reasoning": false,
+    "input": [
+      "text"
+    ],
+    "cost": {
+      "input": 0.01,
+      "output": 0,
+      "cacheRead": 0,
+      "cacheWrite": 0
+    },
+    "contextWindow": 2048,
+    "maxTokens": 16384,
+    "compat": {
+      "maxTokensField": "max_completion_tokens",
+      "supportsDeveloperRole": false,
+      "supportsStore": false
+    }
   }
 ]
