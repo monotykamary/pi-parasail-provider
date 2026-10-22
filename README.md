@@ -71,7 +71,7 @@ Get your API key at [parasail.io](https://parasail.io/).
 
 | Model | Context | Reasoning | Input | Max Output | Input $/M | Output $/M | Cache $/M |
 |-------|---------|-----------|-------|------------|-----------|------------|-----------|
-| Cope B S1 | 2K | ❌ | Text | 16K | $0.01 | — | — |
+| Cope B S1 | 262K | ❌ | Text | 16K | $0.01 | — | — |
 | Cydonia 24B v4.1 | 131K | ❌ | Text | 16K | $0.30 | $0.50 | $0.15 |
 | DeepSeek V4 Flash | 1M | ✅ | Text | 384K | $0.14 | $0.28 | $0.07 |
 | Deepseek V4 Flash 0731 | 1M | ✅ | Text | 16K | $0.14 | $0.28 | $0.05 |
