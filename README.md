@@ -75,7 +75,6 @@ Get your API key at [parasail.io](https://parasail.io/).
 | Cydonia 24B v4.1 | 131K | ❌ | Text | 16K | $0.30 | $0.50 | $0.15 |
 | DeepSeek V4 Flash | 1M | ✅ | Text | 384K | $0.14 | $0.28 | $0.07 |
 | Deepseek V4 Flash 0731 | 1M | ✅ | Text | 16K | $0.14 | $0.28 | $0.05 |
-| DeepSeek V4 Pro | 1M | ✅ | Text | 384K | $0.45 | $3.48 | $0.10 |
 | Deepseek V4 Pro 0813 | 1M | ❌ | Text | 16K | $1.32 | $3.96 | $0.04 |
 | Deepseek V41 Flash | 1M | ❌ | Text | 16K | $0.30 | $1.20 | $0.01 |
 | Deepseek V41 Flash 1017 | 1M | ❌ | Text | 16K | $0.30 | $1.20 | $0.01 |
@@ -97,6 +96,7 @@ Get your API key at [parasail.io](https://parasail.io/).
 | Llama 32 3b Instruct | 131K | ❌ | Text | 16K | $0.05 | $0.33 | — |
 | Llama 4 Maverick 17B-128E | 524K | ❌ | Text + Image | 16K | $0.35 | $1.00 | $0.17 |
 | Minimax M3 | 1M | ✅ | Text + Image | 16K | $0.30 | $1.20 | $0.06 |
+| Minimax M31 Flash | 1M | ❌ | Text | 16K | $0.15 | $0.60 | $0.01 |
 | Mistral Small 32 24b | 131K | ❌ | Text | 16K | $0.09 | $0.30 | $0.05 |
 | Mistralaimistral Nemo | 131K | ❌ | Text | 16K | $0.03 | $0.03 | — |
 | Mythomax 13b | 4K | ❌ | Text | 16K | $0.08 | $0.11 | — |

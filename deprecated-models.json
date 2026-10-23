@@ -1,24 +1,26 @@
 {
-  "parasail-glm-53-flash-vercel": {
-    "id": "parasail-glm-53-flash-vercel",
-    "name": "Glm 53 Flash Vercel",
-    "reasoning": false,
+  "parasail-deepseek-v4-pro": {
+    "id": "parasail-deepseek-v4-pro",
+    "name": "DeepSeek V4 Pro",
+    "reasoning": true,
     "input": [
       "text"
     ],
     "cost": {
-      "input": 0,
-      "output": 0,
-      "cacheRead": 0,
+      "input": 0.45,
+      "output": 3.48,
+      "cacheRead": 0.1,
       "cacheWrite": 0
     },
     "contextWindow": 1048576,
-    "maxTokens": 16384,
+    "maxTokens": 384000,
     "compat": {
+      "thinkingFormat": "openai",
       "maxTokensField": "max_completion_tokens",
       "supportsDeveloperRole": false,
-      "supportsStore": false
+      "supportsStore": false,
+      "supportsReasoningEffort": true
     },
-    "deprecatedAt": "2026-10-09T00:00:22.639Z"
+    "deprecatedAt": "2026-10-23T04:36:48.383Z"
   }
 }
