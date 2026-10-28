@@ -102,7 +102,7 @@ Get your API key at [parasail.io](https://parasail.io/).
 | Mythomax 13b | 4K | ❌ | Text | 16K | $0.08 | $0.11 | — |
 | Qwen 3.5 35B (A3B) | 262K | ✅ | Text + Image | 33K | $0.15 | $1.00 | $0.05 |
 | Qwen 3.5 397B (A17B) | 262K | ✅ | Text + Image | 33K | $0.50 | $3.60 | $0.30 |
-| Qwen 3.6 35B (A3B) | 262K | ✅ | Text + Image | 33K | $0.10 | $0.95 | $0.05 |
+| Qwen 3.6 35B (A3B) | 262K | ✅ | Text + Image | 33K | $0.10 | $0.90 | $0.03 |
 | Qwen2.5-VL 72B | 128K | ❌ | Text + Image | 8K | $0.80 | $1.00 | $0.40 |
 | Qwen3 235B (A22B) | 131K | ✅ | Text | 33K | $0.14 | $0.80 | $0.05 |
 | Qwen3 Coder Next | 262K | ✅ | Text | 33K | $0.12 | $0.80 | $0.07 |
