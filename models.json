@@ -504,7 +504,7 @@
       "text"
     ],
     "cost": {
-      "input": 0.01,
+      "input": 0,
       "output": 0,
       "cacheRead": 0,
       "cacheWrite": 0
